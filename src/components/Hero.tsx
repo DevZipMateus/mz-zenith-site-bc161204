@@ -8,8 +8,11 @@ const Hero = () => {
       className="relative pt-32 pb-20 px-4 text-primary-foreground overflow-hidden"
     >
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
+        className="absolute inset-0 bg-cover bg-no-repeat"
+        style={{ 
+          backgroundImage: `url(${heroBg})`,
+          backgroundPosition: 'center 30%'
+        }}
       />
       <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary/80" />
       <div className="container mx-auto max-w-6xl relative z-10">
