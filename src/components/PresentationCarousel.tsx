@@ -9,6 +9,12 @@ import slide7 from "@/assets/slide-7.jpg";
 import slide8 from "@/assets/slide-8.jpg";
 import slide9 from "@/assets/slide-9.jpg";
 import slide10 from "@/assets/slide-10.jpg";
+import slide11 from "@/assets/slide-11.jpg";
+import slide12 from "@/assets/slide-12.jpg";
+import slide13 from "@/assets/slide-13.jpg";
+import slide14 from "@/assets/slide-14.jpg";
+import slide15 from "@/assets/slide-15.jpg";
+import slide16 from "@/assets/slide-16.jpg";
 
 const slides = [
   { src: slide1, alt: "Apresentação Comercial MZ Consultoria" },
@@ -21,6 +27,12 @@ const slides = [
   { src: slide8, alt: "Aplicação - Como Funciona" },
   { src: slide9, alt: "Valores dos Planos" },
   { src: slide10, alt: "Ideias, Reuniões e Conexões" },
+  { src: slide11, alt: "Treinamentos Empresariais" },
+  { src: slide12, alt: "Palestra: Escolhas Inteligentes, Resultados Reais" },
+  { src: slide13, alt: "Palestra sobre Marketing Digital" },
+  { src: slide14, alt: "Aulas Gravadas sobre Fluxo de Caixa" },
+  { src: slide15, alt: "Vantagens de Ser Nosso Cliente" },
+  { src: slide16, alt: "Obrigado por Receber Nossa Proposta" },
 ];
 
 const PresentationCarousel = () => {
