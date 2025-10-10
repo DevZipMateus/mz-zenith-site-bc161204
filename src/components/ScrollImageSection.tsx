@@ -1,4 +1,7 @@
 import { useEffect, useRef, useState } from "react";
+import scrollImage1 from "@/assets/scroll-image-1.jpg";
+import scrollImage2 from "@/assets/scroll-image-2.jpg";
+import scrollImage3 from "@/assets/scroll-image-3.jpg";
 
 interface Step {
   title: string;
@@ -8,19 +11,19 @@ interface Step {
 
 const steps: Step[] = [
   {
-    title: "Planejamento Financeiro",
-    description: "Análise completa da sua situação financeira atual e definição de objetivos claros para o futuro.",
-    imageUrl: "/placeholder.svg"
+    title: "Apresentação Comercial",
+    description: "Sou Marília Zereu, Contadora, Perita Contábil, Educadora financeira e consultora financeira especializada no atendimento a pessoas físicas e jurídicas, com foco em organização, controle e planejamento financeiro.",
+    imageUrl: scrollImage1
   },
   {
-    title: "Estratégia Personalizada",
-    description: "Desenvolvimento de um plano financeiro sob medida, alinhado aos seus objetivos e perfil.",
-    imageUrl: "/placeholder.svg"
+    title: "Quem Somos",
+    description: "A MZ Consultoria Financeira nasceu com o propósito de ajudar pessoas e empresas a conquistarem mais clareza, organização e crescimento em sua vida financeira e empresarial.",
+    imageUrl: scrollImage2
   },
   {
-    title: "Acompanhamento Contínuo",
-    description: "Monitoramento regular e ajustes estratégicos para garantir que você alcance seus objetivos.",
-    imageUrl: "/placeholder.svg"
+    title: "Missão, Visão e Valores",
+    description: "Nossa missão é oferecer soluções financeiras completas e integradas que promovam clareza, organização e crescimento para pessoas e empresas, fortalecendo sua gestão e preparando-as para um futuro seguro.",
+    imageUrl: scrollImage3
   }
 ];
 
