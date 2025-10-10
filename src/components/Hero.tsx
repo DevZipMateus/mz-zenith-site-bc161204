@@ -1,12 +1,18 @@
 import { ArrowRight } from "lucide-react";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   return (
     <section 
       id="hero" 
-      className="pt-32 pb-20 px-4 bg-gradient-to-br from-primary to-primary/90 text-primary-foreground"
+      className="relative pt-32 pb-20 px-4 text-primary-foreground overflow-hidden"
     >
-      <div className="container mx-auto max-w-6xl">
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary/80" />
+      <div className="container mx-auto max-w-6xl relative z-10">
         <div className="text-center space-y-6 animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             MZ Consultoria Financeira
