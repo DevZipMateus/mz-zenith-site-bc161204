@@ -1,4 +1,5 @@
 import { Target, Eye, Heart } from "lucide-react";
+import aboutImage from "@/assets/about-image.jpg";
 
 const About = () => {
   return (
@@ -8,9 +9,24 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
             Sobre nós
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            A MZ Consultoria Financeira nasceu com o propósito de ajudar pessoas e empresas a conquistarem mais clareza, organização e crescimento em sua vida financeira e empresarial.
-          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+          <div className="animate-fade-in">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+              A MZ Consultoria Financeira nasceu com o propósito de ajudar pessoas e empresas a conquistarem mais clareza, organização e crescimento em sua vida financeira e empresarial.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Com uma visão moderna e prática, a MZ entende que lidar com finanças vai além de organizar números: é criar estratégias para gerar resultados, fortalecer negócios e projetar um futuro sólido e sustentável.
+            </p>
+          </div>
+          <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
+            <img 
+              src={aboutImage} 
+              alt="Equipe MZ Consultoria em reunião de consultoria financeira" 
+              className="rounded-xl shadow-lg w-full h-auto object-cover"
+            />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
