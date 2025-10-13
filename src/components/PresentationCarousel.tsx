@@ -55,8 +55,8 @@ const PresentationCarousel = () => {
 
   return (
     <>
-      <section className="py-20 bg-gradient-to-b from-background to-accent/20">
-        <div className="container mx-auto px-4">
+      <section className="py-12 md:py-20 bg-gradient-to-b from-background to-accent/20">
+        <div className="container mx-auto px-2 sm:px-4">
           <Carousel
             opts={{
               align: "start",
@@ -80,8 +80,8 @@ const PresentationCarousel = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="left-4" />
-            <CarouselNext className="right-4" />
+            <CarouselPrevious className="left-2 sm:left-4" />
+            <CarouselNext className="right-2 sm:right-4" />
           </Carousel>
         </div>
       </section>

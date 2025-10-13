@@ -18,20 +18,20 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary/80" />
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="text-center space-y-6 animate-fade-in">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight relative">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight relative px-4">
             <img 
               src={logoMZ} 
               alt="MZ Consultoria Financeira" 
-              className="max-w-md md:max-w-lg lg:max-w-2xl mx-auto w-full h-auto"
+              className="max-w-[280px] sm:max-w-md md:max-w-lg lg:max-w-2xl mx-auto w-full h-auto"
             />
             <span className="sr-only">MZ Consultoria Financeira</span>
           </h1>
           
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-light opacity-95 max-w-4xl mx-auto">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light opacity-95 max-w-4xl mx-auto px-4">
             Oferecemos soluções financeiras completas e integradas que promovem clareza, organização e crescimento para pessoas e empresas
           </h2>
           
-          <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg lg:text-xl opacity-90 max-w-2xl mx-auto px-4">
             Planejar com Inteligência, Viver com Liberdade
           </p>
 

@@ -2,13 +2,13 @@ import { Mail, Phone, MapPin, Clock, Linkedin, Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 px-4 bg-background">
+    <section id="contact" className="py-12 md:py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-accent mb-4">
+        <div className="text-center mb-12 md:mb-16 animate-fade-in">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-accent mb-4">
             Entre em contato
           </h2>
-          <p className="text-lg text-foreground max-w-3xl mx-auto">
+          <p className="text-base md:text-lg text-foreground max-w-3xl mx-auto">
             Estamos prontos para ajudar você a transformar suas finanças e alcançar seus objetivos
           </p>
         </div>
@@ -74,20 +74,20 @@ const Contact = () => {
           </div>
 
           <div className="space-y-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <div className="bg-gradient-to-br from-primary to-primary/90 p-8 rounded-xl text-primary-foreground">
-              <h3 className="text-2xl font-bold mb-4">
+            <div className="bg-gradient-to-br from-primary to-primary/90 p-6 md:p-8 rounded-xl text-primary-foreground">
+              <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">
                 Agende sua consulta
               </h3>
-              <p className="mb-6 opacity-95">
+              <p className="text-sm md:text-base mb-4 md:mb-6 opacity-95">
                 Transforme sua realidade financeira com orientação especializada. Entre em contato e descubra como podemos ajudar você ou sua empresa.
               </p>
               <a
                 href="https://wa.me/5551981821137"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-6 py-3 rounded-lg font-semibold hover:bg-accent/90 transition-all"
+                className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-4 md:px-6 py-2.5 md:py-3 rounded-lg font-semibold text-sm md:text-base hover:bg-accent/90 transition-all"
               >
-                <Phone size={20} />
+                <Phone size={18} />
                 Falar via WhatsApp
               </a>
             </div>

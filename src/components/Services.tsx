@@ -26,30 +26,30 @@ const Services = () => {
     title: "Palestras",
     description: "Palestras motivacionais e educativas sobre mentalidade financeira, organização e construção de futuro sólido."
   }];
-  return <section id="services" className="py-20 px-4 bg-muted/30">
+  return <section id="services" className="py-12 md:py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-accent mb-4">
+        <div className="text-center mb-12 md:mb-16 animate-fade-in">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-accent mb-4">
             Nossos serviços
           </h2>
-          <p className="text-lg text-foreground max-w-3xl mx-auto">
+          <p className="text-base md:text-lg text-foreground max-w-3xl mx-auto">
             Soluções completas e integradas para pessoas e empresas que buscam clareza, organização e crescimento financeiro
           </p>
         </div>
 
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-foreground mb-8 text-center">Produtos</h3>
-          <div className="grid md:grid-cols-3 gap-8">
-            {products.map((product, index) => <div key={index} className="bg-card p-8 rounded-xl shadow-md hover:shadow-xl transition-all animate-fade-in border border-border hover:border-accent group" style={{
+        <div className="mb-12 md:mb-16">
+          <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6 md:mb-8 text-center">Produtos</h3>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            {products.map((product, index) => <div key={index} className="bg-card p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all animate-fade-in border border-border hover:border-accent group" style={{
             animationDelay: `${index * 0.1}s`
           }}>
-                <div className="bg-accent/20 w-16 h-16 rounded-lg flex items-center justify-center mb-6 text-accent-foreground group-hover:bg-accent/30 transition-colors">
+                <div className="bg-accent/20 w-14 h-14 md:w-16 md:h-16 rounded-lg flex items-center justify-center mb-4 md:mb-6 text-accent-foreground group-hover:bg-accent/30 transition-colors">
                   {product.icon}
                 </div>
-                <h4 className="text-xl font-bold text-card-foreground mb-3">
+                <h4 className="text-lg md:text-xl font-bold text-card-foreground mb-3">
                   {product.title}
                 </h4>
-                <p className="text-slate-950">
+                <p className="text-sm md:text-base text-slate-950">
                   {product.description}
                 </p>
               </div>)}
@@ -57,18 +57,18 @@ const Services = () => {
         </div>
 
         <div>
-          <h3 className="text-2xl font-bold text-foreground mb-8 text-center">Serviços</h3>
-          <div className="grid md:grid-cols-3 gap-8">
-            {services.map((service, index) => <div key={index} className="bg-card p-8 rounded-xl shadow-md hover:shadow-xl transition-all animate-fade-in border border-border hover:border-primary group" style={{
+          <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6 md:mb-8 text-center">Serviços</h3>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            {services.map((service, index) => <div key={index} className="bg-card p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all animate-fade-in border border-border hover:border-primary group" style={{
             animationDelay: `${index * 0.1}s`
           }}>
-                <div className="bg-primary/10 w-16 h-16 rounded-lg flex items-center justify-center mb-6 text-primary group-hover:bg-primary/20 transition-colors">
+                <div className="bg-primary/10 w-14 h-14 md:w-16 md:h-16 rounded-lg flex items-center justify-center mb-4 md:mb-6 text-primary group-hover:bg-primary/20 transition-colors">
                   {service.icon}
                 </div>
-                <h4 className="text-xl font-bold text-card-foreground mb-3">
+                <h4 className="text-lg md:text-xl font-bold text-card-foreground mb-3">
                   {service.title}
                 </h4>
-                <p className="text-neutral-950">
+                <p className="text-sm md:text-base text-neutral-950">
                   {service.description}
                 </p>
               </div>)}
