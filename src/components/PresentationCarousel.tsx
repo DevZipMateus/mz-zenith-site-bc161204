@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
-import { X } from "lucide-react";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import slide1 from "@/assets/slide-1.jpg";
 import slide2 from "@/assets/slide-2.jpg";
 import slide3 from "@/assets/slide-3.jpg";
@@ -39,7 +39,19 @@ const slides = [
 ];
 
 const PresentationCarousel = () => {
-  const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string } | null>(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
+
+  const handleNext = () => {
+    if (selectedImageIndex !== null) {
+      setSelectedImageIndex((selectedImageIndex + 1) % slides.length);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (selectedImageIndex !== null) {
+      setSelectedImageIndex((selectedImageIndex - 1 + slides.length) % slides.length);
+    }
+  };
 
   return (
     <>
@@ -61,7 +73,7 @@ const PresentationCarousel = () => {
                         src={slide.src}
                         alt={slide.alt}
                         className="w-full h-full object-contain bg-background hover:scale-105 transition-transform duration-300"
-                        onClick={() => setSelectedImage(slide)}
+                        onClick={() => setSelectedImageIndex(index)}
                       />
                     </div>
                   </div>
@@ -74,19 +86,36 @@ const PresentationCarousel = () => {
         </div>
       </section>
 
-      <Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(null)}>
+      <Dialog open={selectedImageIndex !== null} onOpenChange={() => setSelectedImageIndex(null)}>
         <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 border-0 bg-transparent">
           <button
-            onClick={() => setSelectedImage(null)}
+            onClick={() => setSelectedImageIndex(null)}
             className="absolute -top-12 right-0 z-50 bg-background/80 backdrop-blur-sm text-foreground p-2 rounded-full hover:bg-background transition-colors"
             aria-label="Fechar"
           >
             <X size={24} />
           </button>
-          {selectedImage && (
+          
+          <button
+            onClick={handlePrevious}
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-50 bg-background/80 backdrop-blur-sm text-foreground p-3 rounded-full hover:bg-background transition-colors"
+            aria-label="Anterior"
+          >
+            <ChevronLeft size={32} />
+          </button>
+
+          <button
+            onClick={handleNext}
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-50 bg-background/80 backdrop-blur-sm text-foreground p-3 rounded-full hover:bg-background transition-colors"
+            aria-label="Próximo"
+          >
+            <ChevronRight size={32} />
+          </button>
+
+          {selectedImageIndex !== null && (
             <img
-              src={selectedImage.src}
-              alt={selectedImage.alt}
+              src={slides[selectedImageIndex].src}
+              alt={slides[selectedImageIndex].alt}
               className="w-full h-full object-contain rounded-lg"
             />
           )}
