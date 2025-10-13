@@ -1,5 +1,5 @@
 import { Target, Eye, Heart } from "lucide-react";
-import aboutImage from "@/assets/about-image.jpg";
+import aboutImage from "@/assets/team-photo.jpg";
 const About = () => {
   return <section id="about" className="py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
