@@ -55,7 +55,7 @@ const About = () => {
               <Heart className="text-accent-foreground" size={32} />
             </div>
             <h3 className="text-xl font-bold text-card-foreground mb-4">Valores</h3>
-            <ul className="text-foreground space-y-2">
+            <ul className="text-slate-950 space-y-2">
               <li className="bg-transparent">• Clareza: simplificar para gerar entendimento</li>
               <li>• Organização: estruturar processos eficientes</li>
               <li>• Crescimento: alcançar resultados concretos</li>
