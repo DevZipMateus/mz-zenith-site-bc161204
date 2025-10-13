@@ -1,8 +1,6 @@
 import { Presentation, Users, TrendingUp, BookOpen } from "lucide-react";
 import palestra1 from "@/assets/palestra-1.jpg";
 import palestra2 from "@/assets/palestra-2.jpg";
-import palestra3 from "@/assets/palestra-3.jpg";
-import palestra4 from "@/assets/palestra-4.jpg";
 
 const Palestras = () => {
   const palestras = [
@@ -13,14 +11,6 @@ const Palestras = () => {
     {
       image: palestra2,
       alt: "Palestra sobre planejamento de vida e finanças pessoais",
-    },
-    {
-      image: palestra3,
-      alt: "Workshop de educação financeira",
-    },
-    {
-      image: palestra4,
-      alt: "Treinamento empresarial sobre organização financeira",
     },
   ];
 
