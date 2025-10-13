@@ -67,7 +67,7 @@ const About = () => {
         </div>
 
         <div className="bg-gradient-to-br from-muted to-muted/50 p-8 md:p-12 rounded-xl animate-fade-in">
-          <p className="text-lg text-foreground leading-relaxed">
+          <p className="text-lg leading-relaxed text-slate-950">
             Com uma visão moderna e prática, a MZ entende que lidar com finanças vai além de organizar números: é criar estratégias para gerar resultados, fortalecer negócios e projetar um futuro sólido e sustentável. Nosso compromisso é tornar a gestão financeira acessível, clara e eficiente, permitindo que nossos clientes cuidem do presente e construam o futuro com confiança.
           </p>
         </div>

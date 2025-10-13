@@ -1,21 +1,18 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-
 const EgestorERP = () => {
   // Link for both the title and button
   const egestorLink = "https://blaster.zipline.com.br/egestor/#452090";
-
-  return (
-    <section className="py-16 bg-background overflow-hidden">
+  return <section className="py-16 bg-background overflow-hidden">
       <div className="container px-4 mx-auto max-w-6xl">
         {/* Two-column layout for desktop, stack on mobile */}
         <div className="flex flex-col md:flex-row md:items-center md:gap-8 lg:gap-12 mb-10">
           {/* Left column - Header Text */}
           <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0 animate-fade-in">
             <a href={egestorLink} target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-90 transition-opacity">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 leading-tight">Sistema de gestão empresarial</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight text-slate-50 lg:text-5xl">Sistema de gestão empresarial</h2>
             </a>
-            <p className="text-lg md:text-xl text-gray-600 font-normal">
+            <p className="text-lg md:text-xl font-normal text-slate-50">
               Dobre seus lucros otimizando sua gestão
             </p>
           </div>
@@ -38,8 +35,6 @@ const EgestorERP = () => {
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default EgestorERP;
