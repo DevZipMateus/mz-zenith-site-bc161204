@@ -1,4 +1,7 @@
+import { useState } from "react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { X } from "lucide-react";
 import slide1 from "@/assets/slide-1.jpg";
 import slide2 from "@/assets/slide-2.jpg";
 import slide3 from "@/assets/slide-3.jpg";
@@ -36,36 +39,60 @@ const slides = [
 ];
 
 const PresentationCarousel = () => {
+  const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string } | null>(null);
+
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-accent/20">
-      <div className="container mx-auto px-4">
-        <Carousel
-          opts={{
-            align: "start",
-            loop: true,
-          }}
-          className="w-full max-w-5xl mx-auto"
-        >
-          <CarouselContent>
-            {slides.map((slide, index) => (
-              <CarouselItem key={index}>
-                <div className="p-1">
-                  <div className="relative aspect-video rounded-lg overflow-hidden shadow-2xl">
-                    <img
-                      src={slide.src}
-                      alt={slide.alt}
-                      className="w-full h-full object-contain bg-background"
-                    />
+    <>
+      <section className="py-20 bg-gradient-to-b from-background to-accent/20">
+        <div className="container mx-auto px-4">
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            className="w-full max-w-5xl mx-auto"
+          >
+            <CarouselContent>
+              {slides.map((slide, index) => (
+                <CarouselItem key={index}>
+                  <div className="p-1">
+                    <div className="relative aspect-video rounded-lg overflow-hidden shadow-2xl cursor-pointer hover:shadow-3xl transition-shadow">
+                      <img
+                        src={slide.src}
+                        alt={slide.alt}
+                        className="w-full h-full object-contain bg-background hover:scale-105 transition-transform duration-300"
+                        onClick={() => setSelectedImage(slide)}
+                      />
+                    </div>
                   </div>
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="left-4" />
-          <CarouselNext className="right-4" />
-        </Carousel>
-      </div>
-    </section>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-4" />
+            <CarouselNext className="right-4" />
+          </Carousel>
+        </div>
+      </section>
+
+      <Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(null)}>
+        <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 border-0 bg-transparent">
+          <button
+            onClick={() => setSelectedImage(null)}
+            className="absolute -top-12 right-0 z-50 bg-background/80 backdrop-blur-sm text-foreground p-2 rounded-full hover:bg-background transition-colors"
+            aria-label="Fechar"
+          >
+            <X size={24} />
+          </button>
+          {selectedImage && (
+            <img
+              src={selectedImage.src}
+              alt={selectedImage.alt}
+              className="w-full h-full object-contain rounded-lg"
+            />
+          )}
+        </DialogContent>
+      </Dialog>
+    </>
   );
 };
 
