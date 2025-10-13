@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import logoMZ from "@/assets/logo-mz.png";
 
 const Hero = () => {
   return (
@@ -17,8 +18,13 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary/80" />
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="text-center space-y-6 animate-fade-in">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            MZ Consultoria Financeira
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight relative">
+            <img 
+              src={logoMZ} 
+              alt="MZ Consultoria Financeira" 
+              className="max-w-md md:max-w-lg lg:max-w-2xl mx-auto w-full h-auto"
+            />
+            <span className="sr-only">MZ Consultoria Financeira</span>
           </h1>
           
           <h2 className="text-xl md:text-2xl lg:text-3xl font-light opacity-95 max-w-4xl mx-auto">
