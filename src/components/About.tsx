@@ -1,9 +1,7 @@
 import { Target, Eye, Heart } from "lucide-react";
 import aboutImage from "@/assets/about-image.jpg";
-
 const About = () => {
-  return (
-    <section id="about" className="py-20 px-4 bg-background">
+  return <section id="about" className="py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-accent mb-4">
@@ -20,12 +18,10 @@ const About = () => {
               Com uma visão moderna e prática, a MZ entende que lidar com finanças vai além de organizar números: é criar estratégias para gerar resultados, fortalecer negócios e projetar um futuro sólido e sustentável.
             </p>
           </div>
-          <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <img 
-              src={aboutImage} 
-              alt="Equipe MZ Consultoria em reunião de consultoria financeira" 
-              className="rounded-xl shadow-lg w-full h-auto object-cover"
-            />
+          <div className="animate-fade-in" style={{
+          animationDelay: "0.2s"
+        }}>
+            <img src={aboutImage} alt="Equipe MZ Consultoria em reunião de consultoria financeira" className="rounded-xl shadow-lg w-full h-auto object-cover" />
           </div>
         </div>
 
@@ -35,28 +31,32 @@ const About = () => {
               <Target className="text-primary" size={32} />
             </div>
             <h3 className="text-xl font-bold text-card-foreground mb-4">Missão</h3>
-            <p className="text-foreground">
+            <p className="text-slate-950">
               Oferecer soluções financeiras completas e integradas que promovam clareza, organização e crescimento para pessoas e empresas, fortalecendo sua gestão e preparando-as para um futuro seguro.
             </p>
           </div>
 
-          <div className="bg-card p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border border-border" style={{ animationDelay: "0.1s" }}>
+          <div className="bg-card p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border border-border" style={{
+          animationDelay: "0.1s"
+        }}>
             <div className="bg-accent/20 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
               <Eye className="text-accent-foreground" size={32} />
             </div>
             <h3 className="text-xl font-bold text-card-foreground mb-4">Visão</h3>
-            <p className="text-foreground">
+            <p className="text-slate-950">
               Ser reconhecida como uma consultoria referência em soluções financeiras personalizadas e integradas, ajudando pessoas e empresas a crescerem de forma sustentável.
             </p>
           </div>
 
-          <div className="bg-card p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border border-border" style={{ animationDelay: "0.2s" }}>
+          <div className="bg-card p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border border-border" style={{
+          animationDelay: "0.2s"
+        }}>
             <div className="bg-accent/30 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
               <Heart className="text-accent-foreground" size={32} />
             </div>
             <h3 className="text-xl font-bold text-card-foreground mb-4">Valores</h3>
             <ul className="text-foreground space-y-2">
-              <li>• Clareza: simplificar para gerar entendimento</li>
+              <li className="bg-transparent">• Clareza: simplificar para gerar entendimento</li>
               <li>• Organização: estruturar processos eficientes</li>
               <li>• Crescimento: alcançar resultados concretos</li>
               <li>• Confiança: agir com ética e transparência</li>
@@ -72,8 +72,6 @@ const About = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
