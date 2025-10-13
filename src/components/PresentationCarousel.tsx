@@ -80,44 +80,46 @@ const PresentationCarousel = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="left-2 sm:left-4" />
-            <CarouselNext className="right-2 sm:right-4" />
+            <CarouselPrevious className="left-2 sm:left-4 w-10 h-10 md:w-12 md:h-12" />
+            <CarouselNext className="right-2 sm:right-4 w-10 h-10 md:w-12 md:h-12" />
           </Carousel>
         </div>
       </section>
 
       <Dialog open={selectedImageIndex !== null} onOpenChange={() => setSelectedImageIndex(null)}>
-        <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 border-0 bg-transparent">
+        <DialogContent className="max-w-[100vw] max-h-[100vh] w-full h-full p-0 border-0 bg-black/95 md:max-w-[95vw] md:max-h-[95vh] md:bg-transparent">
           <button
             onClick={() => setSelectedImageIndex(null)}
-            className="absolute -top-12 right-0 z-50 bg-background/80 backdrop-blur-sm text-foreground p-2 rounded-full hover:bg-background transition-colors"
+            className="absolute top-2 right-2 md:-top-12 md:right-0 z-50 bg-background/80 backdrop-blur-sm text-foreground p-2 md:p-2 rounded-full hover:bg-background transition-colors"
             aria-label="Fechar"
           >
-            <X size={24} />
+            <X size={20} className="md:w-6 md:h-6" />
           </button>
           
           <button
             onClick={handlePrevious}
-            className="absolute left-4 top-1/2 -translate-y-1/2 z-50 bg-background/80 backdrop-blur-sm text-foreground p-3 rounded-full hover:bg-background transition-colors"
+            className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-50 bg-background/80 backdrop-blur-sm text-foreground p-2 md:p-3 rounded-full hover:bg-background transition-colors"
             aria-label="Anterior"
           >
-            <ChevronLeft size={32} />
+            <ChevronLeft size={28} className="md:w-8 md:h-8" />
           </button>
 
           <button
             onClick={handleNext}
-            className="absolute right-4 top-1/2 -translate-y-1/2 z-50 bg-background/80 backdrop-blur-sm text-foreground p-3 rounded-full hover:bg-background transition-colors"
+            className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-50 bg-background/80 backdrop-blur-sm text-foreground p-2 md:p-3 rounded-full hover:bg-background transition-colors"
             aria-label="Próximo"
           >
-            <ChevronRight size={32} />
+            <ChevronRight size={28} className="md:w-8 md:h-8" />
           </button>
 
           {selectedImageIndex !== null && (
-            <img
-              src={slides[selectedImageIndex].src}
-              alt={slides[selectedImageIndex].alt}
-              className="w-full h-full object-contain rounded-lg"
-            />
+            <div className="w-full h-full flex items-center justify-center p-2 md:p-0">
+              <img
+                src={slides[selectedImageIndex].src}
+                alt={slides[selectedImageIndex].alt}
+                className="max-w-full max-h-full object-contain rounded-lg"
+              />
+            </div>
           )}
         </DialogContent>
       </Dialog>
