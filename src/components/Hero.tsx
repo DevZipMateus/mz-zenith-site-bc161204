@@ -40,7 +40,7 @@ const Hero = () => {
               href="https://wa.me/5551981821137"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary/90 transition-all hover:scale-105 shadow-lg"
+              className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-8 py-4 rounded-lg font-semibold text-lg hover:bg-accent/90 transition-all hover:scale-105 shadow-lg"
             >
               Agendar consulta
               <ArrowRight size={20} />

@@ -5,10 +5,10 @@ const Contact = () => {
     <section id="contact" className="py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-accent mb-4">
             Entre em contato
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg text-foreground max-w-3xl mx-auto">
             Estamos prontos para ajudar você a transformar suas finanças e alcançar seus objetivos
           </p>
         </div>
@@ -25,7 +25,7 @@ const Contact = () => {
                   href="https://wa.me/5551981821137"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
+                  className="text-foreground hover:text-accent transition-colors"
                 >
                   (51) 98182-1137
                 </a>
@@ -40,7 +40,7 @@ const Contact = () => {
                 <h3 className="text-lg font-semibold text-foreground mb-2">E-mail</h3>
                 <a 
                   href="mailto:marilia_zereu@hotmail.com"
-                  className="text-muted-foreground hover:text-primary transition-colors"
+                  className="text-foreground hover:text-accent transition-colors"
                 >
                   marilia_zereu@hotmail.com
                 </a>
@@ -53,7 +53,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">Endereço</h3>
-                <p className="text-muted-foreground">
+                <p className="text-foreground">
                   Av. Papa João XXIII, 274<br />
                   Porto Alegre, RS
                 </p>
@@ -66,7 +66,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">Horário de atendimento</h3>
-                <p className="text-muted-foreground">
+                <p className="text-foreground">
                   Segunda a sexta das 8h às 18h
                 </p>
               </div>
@@ -85,7 +85,7 @@ const Contact = () => {
                 href="https://wa.me/5551981821137"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-secondary/90 transition-all"
+                className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-6 py-3 rounded-lg font-semibold hover:bg-accent/90 transition-all"
               >
                 <Phone size={20} />
                 Falar via WhatsApp
