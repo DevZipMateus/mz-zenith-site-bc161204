@@ -7,7 +7,7 @@ const Hero = () => {
       backgroundImage: `url(${heroBg})`,
       backgroundPosition: 'center 40%'
     }} />
-      <div className="absolute inset-0" style={{ backgroundColor: 'rgba(231, 233, 228, 0.9)' }} />
+      <div className="absolute inset-0" style={{ backgroundColor: 'rgba(192, 206, 219, 0.9)' }} />
       <div className="container mx-auto max-w-6xl relative z-10 h-full flex flex-col justify-between py-12 md:py-16">
         <div className="flex-1 flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <div className="flex-1 text-center md:text-left space-y-4 md:space-y-6">
@@ -16,10 +16,10 @@ const Hero = () => {
               color: '#24435c'
             }}>APRESENTAÇÃO</span>
               <span className="block" style={{
-              color: '#68849b'
+              color: '#648199'
             }}>COMERCIAL</span>
             </h1>
-            <p className="text-sm sm:text-base leading-relaxed text-[#68849b] md:text-xl">
+            <p className="text-sm sm:text-base leading-relaxed text-[#648199] md:text-xl">
               Oferecemos soluções financeiras completas e integradas que promovem clareza, organização e crescimento para pessoas e empresas.
             </p>
             <p className="text-xs sm:text-sm text-primary italic font-medium md:text-lg">
