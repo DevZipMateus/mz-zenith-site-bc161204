@@ -15,8 +15,8 @@ const Hero = () => {
         }}
       />
       <div className="absolute inset-0 bg-white/90" />
-      <div className="container mx-auto max-w-6xl relative z-10">
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <div className="container mx-auto max-w-6xl relative z-10 h-full flex items-end pb-12 md:pb-16">
+        <div className="w-full flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="https://wa.me/5551981821137"
             target="_blank"
