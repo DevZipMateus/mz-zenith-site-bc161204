@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg-new.png";
+import heroLogo from "@/assets/hero-logo.png";
 
 const Hero = () => {
   return (
@@ -15,8 +16,30 @@ const Hero = () => {
         }}
       />
       <div className="absolute inset-0 bg-white/90" />
-      <div className="container mx-auto max-w-6xl relative z-10 h-full flex items-end pb-12 md:pb-16">
-        <div className="w-full flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <div className="container mx-auto max-w-6xl relative z-10 h-full flex flex-col justify-between py-12 md:py-16">
+        <div className="flex-1 flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          <div className="flex-1 text-center md:text-left space-y-4 md:space-y-6">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
+              APRESENTAÇÃO COMERCIAL
+            </h1>
+            <p className="text-base sm:text-lg md:text-xl text-foreground/90">
+              Oferecemos soluções financeiras completas e integradas que promovem clareza, organização e crescimento para pessoas e empresas.
+            </p>
+            <p className="text-sm sm:text-base md:text-lg font-semibold text-foreground">
+              Planejar com Inteligência, Viver com Liberdade
+            </p>
+          </div>
+          
+          <div className="flex-1 flex justify-center md:justify-end">
+            <img 
+              src={heroLogo} 
+              alt="MZ Consultoria Financeira" 
+              className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] h-auto object-contain"
+            />
+          </div>
+        </div>
+        
+        <div className="w-full flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
           <a
             href="https://wa.me/5551981821137"
             target="_blank"
