@@ -43,7 +43,7 @@ const About = () => {
                   alt="Marília Zereu, CEO da MZ Consultoria" 
                   className="rounded-lg w-full h-48 object-cover mb-3"
                 />
-                <p className="text-sm text-foreground leading-relaxed">
+                <p className="text-sm md:text-base text-slate-950 leading-relaxed">
                   Marília Zereu, CEO da MZ Consultoria, Contadora, Perita Contábil, Educadora financeira e consultora financeira especializada no atendimento a pessoas físicas e jurídicas, com foco em organização, controle e planejamento financeiro.
                 </p>
               </div>
@@ -54,7 +54,7 @@ const About = () => {
                   alt="Nereu Kuntz, Administrador de empresas" 
                   className="rounded-lg w-full h-48 object-cover mb-3"
                 />
-                <p className="text-sm text-foreground leading-relaxed">
+                <p className="text-sm md:text-base text-slate-950 leading-relaxed">
                   Nereu Kuntz, Administrador de empresas e Planejador Financeiro.
                 </p>
               </div>
