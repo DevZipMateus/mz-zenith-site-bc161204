@@ -1,12 +1,12 @@
 import { ArrowRight } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-bg-new.png";
 import logoMZ from "@/assets/logo-mz.png";
 
 const Hero = () => {
   return (
     <section 
       id="hero" 
-      className="relative min-h-screen flex items-center px-4 text-primary-foreground overflow-hidden"
+      className="relative min-h-screen flex items-center px-4 text-foreground overflow-hidden"
     >
       <div 
         className="absolute inset-0 bg-cover bg-no-repeat"
@@ -15,7 +15,7 @@ const Hero = () => {
           backgroundPosition: 'center 40%'
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary/80" />
+      <div className="absolute inset-0 bg-white/90" />
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="text-center space-y-6 animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight relative px-4">
@@ -56,7 +56,7 @@ const Hero = () => {
                   window.scrollTo({ top: offsetPosition, behavior: "smooth" });
                 }
               }}
-              className="inline-flex items-center gap-2 bg-background/10 text-primary-foreground border-2 border-background/30 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-background/20 transition-all"
+              className="inline-flex items-center gap-2 bg-primary/10 text-foreground border-2 border-primary/30 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary/20 transition-all"
             >
               Conhecer serviços
             </button>
