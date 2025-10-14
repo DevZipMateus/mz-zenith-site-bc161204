@@ -16,10 +16,10 @@ const Hero = () => {
               color: '#24435c'
             }}>APRESENTAÇÃO</span>
               <span className="block" style={{
-              color: '#6C7782'
+              color: '#648199'
             }}>COMERCIAL</span>
             </h1>
-            <p className="text-sm sm:text-base leading-relaxed text-[#66707c] md:text-xl">
+            <p className="text-sm sm:text-base leading-relaxed text-[#648199] md:text-xl">
               Oferecemos soluções financeiras completas e integradas que promovem clareza, organização e crescimento para pessoas e empresas.
             </p>
             <p className="text-xs sm:text-sm text-primary italic font-medium md:text-lg">
