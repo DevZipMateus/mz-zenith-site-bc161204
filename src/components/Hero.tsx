@@ -19,14 +19,15 @@ const Hero = () => {
       <div className="container mx-auto max-w-6xl relative z-10 h-full flex flex-col justify-between py-12 md:py-16">
         <div className="flex-1 flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <div className="flex-1 text-center md:text-left space-y-4 md:space-y-6">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-              APRESENTAÇÃO COMERCIAL
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
+              <span className="text-foreground block">APRESENTAÇÃO</span>
+              <span className="text-primary block">COMERCIAL</span>
             </h1>
-            <p className="text-base sm:text-lg md:text-xl text-foreground/90">
+            <p className="text-sm sm:text-base md:text-lg text-foreground/80 leading-relaxed">
               Oferecemos soluções financeiras completas e integradas que promovem clareza, organização e crescimento para pessoas e empresas.
             </p>
-            <p className="text-sm sm:text-base md:text-lg font-semibold text-foreground">
-              Planejar com Inteligência, Viver com Liberdade
+            <p className="text-xs sm:text-sm md:text-base text-primary font-medium italic">
+              Planejar com inteligência, Viver com liberdade
             </p>
           </div>
           
