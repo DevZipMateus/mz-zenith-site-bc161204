@@ -20,8 +20,8 @@ const Hero = () => {
         <div className="flex-1 flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <div className="flex-1 text-center md:text-left space-y-4 md:space-y-6">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
-              <span className="text-foreground block">APRESENTAÇÃO</span>
-              <span className="text-primary block">COMERCIAL</span>
+              <span className="block" style={{ color: '#24435c' }}>APRESENTAÇÃO</span>
+              <span className="block" style={{ color: '#6C7782' }}>COMERCIAL</span>
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-foreground/80 leading-relaxed">
               Oferecemos soluções financeiras completas e integradas que promovem clareza, organização e crescimento para pessoas e empresas.
