@@ -1,5 +1,5 @@
-import { CreditCard, Plane } from "lucide-react";
-import cardsImage from "@/assets/cards-benefits.jpg";
+import { Check } from "lucide-react";
+import clientMeetingImage from "@/assets/client-meeting.jpg";
 
 const FinancialSolutions = () => {
   return (
@@ -7,55 +7,55 @@ const FinancialSolutions = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="animate-fade-in">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="bg-primary/10 w-10 h-10 md:w-12 md:h-12 rounded-lg flex items-center justify-center">
-                <CreditCard className="text-primary" size={20} />
-              </div>
-              <div className="bg-accent/20 w-10 h-10 md:w-12 md:h-12 rounded-lg flex items-center justify-center">
-                <Plane className="text-accent-foreground" size={20} />
-              </div>
-            </div>
-            
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-accent mb-4 md:mb-6">
-              Soluções Financeiras Completas
-            </h2>
-            
-            <p className="text-base md:text-lg text-foreground leading-relaxed mb-4">
-              Solucionamos através da consultoria seu descontrole financeiro e organizamos suas dívidas!
-            </p>
-            
-            <p className="text-base md:text-lg text-foreground leading-relaxed mb-6">
-              Aqui também podemos falar das Milhas, ensinamos você a se utilizar de todos os benefícios dos seus cartões com estratégia.
-            </p>
-
-            <div className="bg-gradient-to-br from-primary/10 to-accent/10 p-4 md:p-6 rounded-xl border border-border">
-              <ul className="space-y-3 text-sm md:text-base text-foreground">
-                <li className="flex items-start gap-3">
-                  <span className="text-accent font-bold flex-shrink-0">✓</span>
-                  <span>Organização completa de dívidas</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-accent font-bold flex-shrink-0">✓</span>
-                  <span>Estratégias para maximizar benefícios de cartões</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-accent font-bold flex-shrink-0">✓</span>
-                  <span>Consultoria especializada em milhas e pontos</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-accent font-bold flex-shrink-0">✓</span>
-                  <span>Controle financeiro personalizado</span>
-                </li>
-              </ul>
-            </div>
+            <img
+              src={clientMeetingImage}
+              alt="Reunião com clientes da MZ Consultoria Financeira"
+              className="rounded-xl shadow-2xl w-full h-auto object-cover"
+            />
           </div>
 
           <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <img
-              src={cardsImage}
-              alt="Consultoria especializada em cartões de crédito e programa de milhas"
-              className="rounded-xl shadow-2xl w-full h-auto object-cover max-h-[500px] md:max-h-none"
-            />
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-stone-950 mb-6 md:mb-8">
+              VANTAGENS DE SER NOSSO CLIENTE
+            </h2>
+            
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 mt-1">
+                  <Check className="text-primary" size={24} strokeWidth={3} />
+                </div>
+                <p className="text-base md:text-lg text-slate-950 leading-relaxed">
+                  Integração entre sistema (gestor) e estratégia (consultoria).
+                </p>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 mt-1">
+                  <Check className="text-primary" size={24} strokeWidth={3} />
+                </div>
+                <p className="text-base md:text-lg text-slate-950 leading-relaxed">
+                  Soluções personalizadas conforme o momento da empresa.
+                </p>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 mt-1">
+                  <Check className="text-primary" size={24} strokeWidth={3} />
+                </div>
+                <p className="text-base md:text-lg text-slate-950 leading-relaxed">
+                  Experiência prática em planejamento, fluxo de caixa e indicadores de crescimento.
+                </p>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 mt-1">
+                  <Check className="text-primary" size={24} strokeWidth={3} />
+                </div>
+                <p className="text-base md:text-lg text-slate-950 leading-relaxed">
+                  Treinamentos corporativos para seus colaboradores em educação financeira e estratégias em gestão.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
