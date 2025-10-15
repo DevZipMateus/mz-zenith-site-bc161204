@@ -21,8 +21,8 @@ const FinancialSolutions = () => {
             
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 mt-1">
-                  <Check className="text-primary" size={24} strokeWidth={3} />
+                <div className="flex-shrink-0 mt-1 w-8 h-8 md:w-10 md:h-10 bg-primary/10 rounded-md flex items-center justify-center">
+                  <Check className="text-primary" size={20} strokeWidth={3} />
                 </div>
                 <p className="text-base md:text-lg text-slate-950 leading-relaxed">
                   Integração entre sistema (gestor) e estratégia (consultoria).
@@ -30,8 +30,8 @@ const FinancialSolutions = () => {
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 mt-1">
-                  <Check className="text-primary" size={24} strokeWidth={3} />
+                <div className="flex-shrink-0 mt-1 w-8 h-8 md:w-10 md:h-10 bg-primary/10 rounded-md flex items-center justify-center">
+                  <Check className="text-primary" size={20} strokeWidth={3} />
                 </div>
                 <p className="text-base md:text-lg text-slate-950 leading-relaxed">
                   Soluções personalizadas conforme o momento da empresa.
@@ -39,8 +39,8 @@ const FinancialSolutions = () => {
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 mt-1">
-                  <Check className="text-primary" size={24} strokeWidth={3} />
+                <div className="flex-shrink-0 mt-1 w-8 h-8 md:w-10 md:h-10 bg-primary/10 rounded-md flex items-center justify-center">
+                  <Check className="text-primary" size={20} strokeWidth={3} />
                 </div>
                 <p className="text-base md:text-lg text-slate-950 leading-relaxed">
                   Experiência prática em planejamento, fluxo de caixa e indicadores de crescimento.
@@ -48,8 +48,8 @@ const FinancialSolutions = () => {
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 mt-1">
-                  <Check className="text-primary" size={24} strokeWidth={3} />
+                <div className="flex-shrink-0 mt-1 w-8 h-8 md:w-10 md:h-10 bg-primary/10 rounded-md flex items-center justify-center">
+                  <Check className="text-primary" size={20} strokeWidth={3} />
                 </div>
                 <p className="text-base md:text-lg text-slate-950 leading-relaxed">
                   Treinamentos corporativos para seus colaboradores em educação financeira e estratégias em gestão.
