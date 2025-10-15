@@ -38,13 +38,13 @@ const Palestras = () => {
   ];
 
   return (
-    <section id="palestras" className="py-12 md:py-20 px-4 bg-gradient-to-b from-background to-accent/10">
+    <section id="palestras" className="py-12 md:py-20 px-4 bg-primary">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12 md:mb-16 animate-fade-in">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-accent mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
             Palestras e Treinamentos
           </h2>
-          <p className="text-base md:text-lg text-foreground max-w-3xl mx-auto">
+          <p className="text-base md:text-lg text-primary-foreground/90 max-w-3xl mx-auto">
             Capacite sua equipe com conhecimento transformador sobre gestão financeira e empreendedorismo
           </p>
         </div>
@@ -55,16 +55,16 @@ const Palestras = () => {
             return (
               <div
                 key={index}
-                className="bg-card p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border border-border"
+                className="bg-primary-foreground/10 p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border border-primary-foreground/20"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="bg-accent/20 w-12 h-12 md:w-14 md:h-14 rounded-lg flex items-center justify-center mb-3 md:mb-4">
-                  <Icon className="text-accent-foreground" size={24} />
+                <div className="bg-primary-foreground/20 w-12 h-12 md:w-14 md:h-14 rounded-lg flex items-center justify-center mb-3 md:mb-4">
+                  <Icon className="text-primary-foreground" size={24} />
                 </div>
-                <h3 className="text-base md:text-lg font-bold text-card-foreground mb-2">
+                <h3 className="text-base md:text-lg font-bold text-primary-foreground mb-2">
                   {tema.title}
                 </h3>
-                <p className="text-xs md:text-sm text-slate-950">
+                <p className="text-xs md:text-sm text-primary-foreground/90">
                   {tema.description}
                 </p>
               </div>
