@@ -51,9 +51,9 @@ const About = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          <div className="bg-card p-6 md:p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border border-border">
-            <div className="bg-primary/10 w-14 h-14 md:w-16 md:h-16 rounded-lg flex items-center justify-center mb-4 md:mb-6">
-              <Target className="text-primary" size={28} />
+          <div className="p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{ backgroundColor: '#e7e9e4', borderColor: '#24445d' }}>
+            <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center mb-4 md:mb-6">
+              <Target style={{ color: '#ffd66d' }} size={28} />
             </div>
             <h3 className="text-lg md:text-xl font-bold text-card-foreground mb-3 md:mb-4">Missão</h3>
             <p className="text-sm md:text-base text-slate-950">
@@ -61,11 +61,13 @@ const About = () => {
             </p>
           </div>
 
-          <div className="bg-card p-6 md:p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border border-border" style={{
+          <div className="p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{
+          backgroundColor: '#e7e9e4',
+          borderColor: '#24445d',
           animationDelay: "0.1s"
         }}>
-            <div className="bg-accent/20 w-14 h-14 md:w-16 md:h-16 rounded-lg flex items-center justify-center mb-4 md:mb-6">
-              <Eye className="text-accent-foreground" size={28} />
+            <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center mb-4 md:mb-6">
+              <Eye style={{ color: '#ffd66d' }} size={28} />
             </div>
             <h3 className="text-lg md:text-xl font-bold text-card-foreground mb-3 md:mb-4">Visão</h3>
             <p className="text-sm md:text-base text-slate-950">
@@ -73,11 +75,13 @@ const About = () => {
             </p>
           </div>
 
-          <div className="bg-card p-6 md:p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border border-border" style={{
+          <div className="p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{
+          backgroundColor: '#e7e9e4',
+          borderColor: '#24445d',
           animationDelay: "0.2s"
         }}>
-            <div className="bg-accent/30 w-14 h-14 md:w-16 md:h-16 rounded-lg flex items-center justify-center mb-4 md:mb-6">
-              <Heart className="text-accent-foreground" size={28} />
+            <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center mb-4 md:mb-6">
+              <Heart style={{ color: '#ffd66d' }} size={28} />
             </div>
             <h3 className="text-lg md:text-xl font-bold text-card-foreground mb-3 md:mb-4">Valores</h3>
             <ul className="text-sm md:text-base text-slate-950 space-y-2">
