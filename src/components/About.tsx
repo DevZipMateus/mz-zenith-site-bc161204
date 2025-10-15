@@ -51,7 +51,7 @@ const About = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          <div className="p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{ backgroundColor: '#e7e9e4', borderColor: '#24445d' }}>
+          <div className="bg-white p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{ borderColor: '#24445d' }}>
             <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center mb-4 md:mb-6">
               <Target style={{ color: '#ffd66d' }} size={28} />
             </div>
@@ -61,8 +61,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{
-          backgroundColor: '#e7e9e4',
+          <div className="bg-white p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{
           borderColor: '#24445d',
           animationDelay: "0.1s"
         }}>
@@ -75,8 +74,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{
-          backgroundColor: '#e7e9e4',
+          <div className="bg-white p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{
           borderColor: '#24445d',
           animationDelay: "0.2s"
         }}>
