@@ -1,21 +1,17 @@
 import { Check } from "lucide-react";
 import clientMeetingImage from "@/assets/client-meeting.jpg";
-
 const FinancialSolutions = () => {
-  return (
-    <section className="py-12 md:py-20 px-4 bg-background">
+  return <section className="py-12 md:py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="animate-fade-in">
-            <img
-              src={clientMeetingImage}
-              alt="Reunião com clientes da MZ Consultoria Financeira"
-              className="rounded-xl shadow-2xl w-full h-auto object-cover grayscale"
-            />
+            <img src={clientMeetingImage} alt="Reunião com clientes da MZ Consultoria Financeira" className="rounded-xl shadow-2xl w-full h-auto object-cover grayscale" />
           </div>
 
-          <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-stone-950 mb-6 md:mb-8">
+          <div className="animate-fade-in" style={{
+          animationDelay: "0.2s"
+        }}>
+            <h2 className="text-2xl sm:text-3xl text-stone-950 mb-6 md:mb-8 font-extrabold md:text-7xl">
               VANTAGENS DE SER NOSSO CLIENTE
             </h2>
             
@@ -59,8 +55,6 @@ const FinancialSolutions = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FinancialSolutions;
