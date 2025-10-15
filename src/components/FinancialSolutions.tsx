@@ -12,7 +12,7 @@ const FinancialSolutions = () => {
           animationDelay: "0.2s"
         }}>
             <h2 className="text-2xl sm:text-3xl text-stone-950 mb-6 md:mb-8 font-extrabold md:text-7xl">
-              VANTAGENS DE SER NOSSO CLIENTE
+              VANTAGENS DE SER NOSSO <span className="text-primary">CLIENTE</span>
             </h2>
             
             <div className="space-y-4">
