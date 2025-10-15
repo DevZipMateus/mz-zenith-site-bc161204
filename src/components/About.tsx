@@ -1,4 +1,5 @@
 import { Target, Eye, Heart } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import teamImage from "@/assets/team-mz.jpg";
 import mariliaImage from "@/assets/marilia-zereu.jpg";
 import nereuImage from "@/assets/nereu-kuntz.jpg";
@@ -149,6 +150,16 @@ const About = () => {
                 Sem planejamento, o empreendedor toma decisões no escuro — e perde oportunidades.
               </p>
             </div>
+          </div>
+
+          <div className="text-center mt-10 md:mt-12 animate-fade-in" style={{ animationDelay: "0.4s" }}>
+            <Button 
+              size="lg"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg"
+            >
+              Entre em Contato
+            </Button>
           </div>
         </div>
       </div>
