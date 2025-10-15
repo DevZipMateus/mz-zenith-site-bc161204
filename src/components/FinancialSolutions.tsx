@@ -10,7 +10,7 @@ const FinancialSolutions = () => {
             <img
               src={clientMeetingImage}
               alt="Reunião com clientes da MZ Consultoria Financeira"
-              className="rounded-xl shadow-2xl w-full h-auto object-cover"
+              className="rounded-xl shadow-2xl w-full h-auto object-cover grayscale"
             />
           </div>
 
