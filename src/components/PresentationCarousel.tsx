@@ -55,7 +55,7 @@ const PresentationCarousel = () => {
 
   return (
     <>
-      <section className="py-12 md:py-20 bg-gradient-to-b from-background to-accent/20">
+      <section className="py-12 md:py-20 bg-primary">
         <div className="container mx-auto px-2 sm:px-4">
           <Carousel
             opts={{
