@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Clock, Linkedin, Instagram } from "lucide-react";
+import instagramQRCode from "@/assets/instagram-qrcode.png";
 
 const Contact = () => {
   return (
@@ -94,25 +95,37 @@ const Contact = () => {
 
             <div>
               <h3 className="text-xl font-bold text-foreground mb-4">Redes sociais</h3>
-              <div className="flex gap-4">
-                <a
-                  href="https://www.linkedin.com/in/marilia-zereu-01330034"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-primary/10 w-14 h-14 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin size={24} />
-                </a>
-                <a
-                  href="https://www.instagram.com/zereufinancas?igsh=MXE4bGh1dThic2p5NQ=="
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-accent/20 w-14 h-14 rounded-lg flex items-center justify-center text-accent-foreground hover:bg-accent hover:text-accent-foreground transition-all"
-                  aria-label="Instagram"
-                >
-                  <Instagram size={24} />
-                </a>
+              <div className="flex gap-4 items-start">
+                <div>
+                  <div className="flex gap-4 mb-4">
+                    <a
+                      href="https://www.linkedin.com/in/marilia-zereu-01330034"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-primary/10 w-14 h-14 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all"
+                      aria-label="LinkedIn"
+                    >
+                      <Linkedin size={24} />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/zereufinancas?igsh=MXE4bGh1dThic2p5NQ=="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-accent/20 w-14 h-14 rounded-lg flex items-center justify-center text-accent-foreground hover:bg-accent hover:text-accent-foreground transition-all"
+                      aria-label="Instagram"
+                    >
+                      <Instagram size={24} />
+                    </a>
+                  </div>
+                  <div className="bg-white p-4 rounded-xl shadow-lg">
+                    <p className="text-sm font-semibold text-foreground mb-2 text-center">Siga-nos no Instagram</p>
+                    <img 
+                      src={instagramQRCode} 
+                      alt="QR Code Instagram MZ Consultoria" 
+                      className="w-40 h-40 mx-auto"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
