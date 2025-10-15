@@ -10,9 +10,9 @@ const EgestorERP = () => {
           {/* Left column - Header Text */}
           <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0 animate-fade-in w-full">
             <a href={egestorLink} target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-90 transition-opacity w-full">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight text-slate-50">Sistema de gestão empresarial</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight text-black">Sistema de gestão empresarial</h2>
             </a>
-            <p className="text-lg md:text-xl font-normal text-slate-50">
+            <p className="text-lg md:text-xl font-normal text-black">
               Dobre seus lucros otimizando sua gestão
             </p>
           </div>
