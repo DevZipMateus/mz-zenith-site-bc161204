@@ -55,16 +55,16 @@ const Palestras = () => {
             return (
               <div
                 key={index}
-                className="bg-primary-foreground/10 p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border border-primary-foreground/20"
+                className="bg-card p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border border-border"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="bg-primary-foreground/20 w-12 h-12 md:w-14 md:h-14 rounded-lg flex items-center justify-center mb-3 md:mb-4">
-                  <Icon className="text-primary-foreground" size={24} />
+                <div className="bg-accent/20 w-12 h-12 md:w-14 md:h-14 rounded-lg flex items-center justify-center mb-3 md:mb-4">
+                  <Icon className="text-accent-foreground" size={24} />
                 </div>
-                <h3 className="text-base md:text-lg font-bold text-primary-foreground mb-2">
+                <h3 className="text-base md:text-lg font-bold text-card-foreground mb-2">
                   {tema.title}
                 </h3>
-                <p className="text-xs md:text-sm text-primary-foreground/90">
+                <p className="text-xs md:text-sm text-slate-950">
                   {tema.description}
                 </p>
               </div>
