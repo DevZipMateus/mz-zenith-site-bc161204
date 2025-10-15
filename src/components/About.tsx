@@ -4,8 +4,8 @@ import teamImage from "@/assets/team-mz.jpg";
 import mariliaImage from "@/assets/marilia-zereu.jpg";
 import nereuImage from "@/assets/nereu-kuntz.jpg";
 const About = () => {
-  return <section id="about" className="py-12 md:py-20 px-4 bg-background">
-      <div className="container mx-auto max-w-6xl">
+  return <section id="about" className="py-12 md:py-20 px-4 bg-background w-full overflow-hidden">
+      <div className="container mx-auto max-w-6xl w-full">
         <div className="text-center mb-12 md:mb-16 animate-fade-in">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-stone-950 md:text-4xl">
             Quem Somos
@@ -33,8 +33,8 @@ const About = () => {
               Nosso compromisso é tornar a gestão financeira acessível, clara e eficiente, permitindo que nossos clientes cuidem do presente e construam o futuro com confiança.
             </p>
 
-            <div className="grid sm:grid-cols-2 gap-6">
-              <div className="bg-card p-4 rounded-lg shadow-md border border-border">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 w-full">
+              <div className="bg-card p-4 rounded-lg shadow-md border border-border w-full">
                 <img src={mariliaImage} alt="Marília Zereu, CEO da MZ Consultoria" className="rounded-lg w-full h-48 object-cover mb-3" />
                 <p className="text-sm md:text-base text-slate-950 leading-relaxed">
                   Marília Zereu, CEO da MZ Consultoria, Contadora, Perita Contábil, Educadora financeira e consultora financeira especializada no atendimento a pessoas físicas e jurídicas, com foco em organização, controle e planejamento financeiro.
@@ -51,8 +51,8 @@ const About = () => {
           </div>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          <div className="bg-white p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{ borderColor: '#24445d' }}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 w-full">
+          <div className="bg-white p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2 w-full" style={{ borderColor: '#24445d' }}>
             <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center mb-4 md:mb-6">
               <Target style={{ color: '#ffd66d' }} size={28} />
             </div>
@@ -101,8 +101,8 @@ const About = () => {
             </h2>
           </div>
 
-          <div className="grid sm:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
-            <div className="bg-white p-6 md:p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{ borderColor: '#24445d' }}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 lg:gap-8 max-w-5xl mx-auto w-full">
+            <div className="bg-white p-6 md:p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border-2 w-full" style={{ borderColor: '#24445d' }}>
               <div className="text-3xl md:text-4xl mb-3">💸</div>
               <h3 className="text-lg md:text-xl font-bold text-stone-950 mb-3">
                 "Eu trabalho tanto, mas nunca vejo o dinheiro sobrar no final do mês."

@@ -3,14 +3,14 @@ import { Button } from '@/components/ui/button';
 const EgestorERP = () => {
   // Link for both the title and button
   const egestorLink = "https://blaster.zipline.com.br/egestor/#452090";
-  return <section className="py-16 bg-background overflow-hidden">
-      <div className="container px-4 mx-auto max-w-6xl">
+  return <section className="py-16 bg-background overflow-hidden w-full">
+      <div className="container px-4 mx-auto max-w-6xl w-full">
         {/* Two-column layout for desktop, stack on mobile */}
         <div className="flex flex-col md:flex-row md:items-center md:gap-8 lg:gap-12 mb-10">
           {/* Left column - Header Text */}
-          <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0 animate-fade-in">
-            <a href={egestorLink} target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-90 transition-opacity">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight text-slate-50 lg:text-5xl">Sistema de gestão empresarial</h2>
+          <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0 animate-fade-in w-full">
+            <a href={egestorLink} target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-90 transition-opacity w-full">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight text-slate-50">Sistema de gestão empresarial</h2>
             </a>
             <p className="text-lg md:text-xl font-normal text-slate-50">
               Dobre seus lucros otimizando sua gestão
@@ -27,8 +27,8 @@ const EgestorERP = () => {
         </div>
         
         {/* CTA Button - Centered below both columns */}
-        <div className="flex justify-center animate-fade-in">
-          <a href={egestorLink} target="_blank" rel="noopener noreferrer" className="inline-block w-full max-w-sm">
+        <div className="flex justify-center animate-fade-in w-full">
+          <a href={egestorLink} target="_blank" rel="noopener noreferrer" className="inline-block w-full max-w-xs sm:max-w-sm">
             <button className="w-full py-3 bg-[#7CFFA0] hover:bg-[#6DF090] text-black font-medium rounded-full transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-[1.02]">
               Teste grátis
             </button>

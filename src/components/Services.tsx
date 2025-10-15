@@ -26,8 +26,8 @@ const Services = () => {
     title: "Palestras",
     description: "Palestras motivacionais e educativas sobre mentalidade financeira, organização e construção de futuro sólido."
   }];
-  return <section id="services" className="py-12 md:py-20 px-4 bg-muted/30">
-      <div className="container mx-auto max-w-6xl">
+  return <section id="services" className="py-12 md:py-20 px-4 bg-muted/30 w-full overflow-hidden">
+      <div className="container mx-auto max-w-6xl w-full">
         <div className="text-center mb-12 md:mb-16 animate-fade-in">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-accent mb-4">
             Nossos serviços
@@ -38,10 +38,10 @@ const Services = () => {
         </div>
 
         {/* Novos Serviços em Quadros Azuis */}
-        <div className="mb-12 md:mb-16">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+        <div className="mb-12 md:mb-16 w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full">
             {/* Serviço 1 */}
-            <div className="bg-primary p-6 rounded-xl shadow-lg">
+            <div className="bg-primary p-6 rounded-xl shadow-lg w-full">
               <h4 className="text-lg font-bold text-primary-foreground mb-3">
                 Consultoria em organização financeira para pessoas físicas
               </h4>
@@ -92,9 +92,9 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="mb-12 md:mb-16">
+        <div className="mb-12 md:mb-16 w-full">
           <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6 md:mb-8 text-center">Produtos</h3>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 w-full">
             {products.map((product, index) => <div key={index} className="bg-card p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all animate-fade-in border border-border hover:border-accent group" style={{
             animationDelay: `${index * 0.1}s`
           }}>
@@ -111,9 +111,9 @@ const Services = () => {
           </div>
         </div>
 
-        <div>
+        <div className="w-full">
           <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6 md:mb-8 text-center">Serviços</h3>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 w-full">
             {services.map((service, index) => <div key={index} className="bg-card p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all animate-fade-in border border-border hover:border-primary group" style={{
             animationDelay: `${index * 0.1}s`
           }}>

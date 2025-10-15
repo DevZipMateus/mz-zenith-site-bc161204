@@ -1,8 +1,8 @@
 import { Check, BarChart3, Compass, Calendar, Lightbulb, Coins } from "lucide-react";
 import clientMeetingImage from "@/assets/client-meeting.jpg";
 const FinancialSolutions = () => {
-  return <section className="py-12 md:py-20 px-4 bg-background">
-      <div className="container mx-auto max-w-6xl">
+  return <section className="py-12 md:py-20 px-4 bg-background w-full overflow-hidden">
+      <div className="container mx-auto max-w-6xl w-full">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="animate-fade-in">
             <img src={clientMeetingImage} alt="Reunião com clientes da MZ Consultoria Financeira" className="rounded-xl shadow-2xl w-full h-auto object-cover grayscale" />
@@ -10,8 +10,8 @@ const FinancialSolutions = () => {
 
           <div className="animate-fade-in" style={{
           animationDelay: "0.2s"
-        }}>
-            <h2 className="text-2xl sm:text-3xl text-stone-950 mb-6 md:mb-8 font-extrabold md:text-7xl">
+         }}>
+            <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl text-stone-950 mb-4 md:mb-6 lg:mb-8 font-extrabold leading-tight">
               VANTAGENS DE SER NOSSO <span className="text-primary">CLIENTE</span>
             </h2>
             
@@ -68,10 +68,10 @@ const FinancialSolutions = () => {
             </p>
           </div>
 
-          <div className="bg-stone-900 rounded-2xl p-4 md:p-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="bg-stone-900 rounded-2xl p-4 md:p-6 lg:p-8 w-full overflow-hidden">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 md:gap-4 w-full">
               {/* Card 1 */}
-              <div className="bg-[#f7fff7] rounded-xl p-4 flex flex-col items-center text-center">
+              <div className="bg-[#f7fff7] rounded-xl p-4 flex flex-col items-center text-center w-full">
                 <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center mb-3">
                   <span className="text-white font-bold">1</span>
                 </div>

@@ -55,8 +55,8 @@ const PresentationCarousel = () => {
 
   return (
     <>
-      <section className="py-12 md:py-20 bg-primary">
-        <div className="container mx-auto px-2 sm:px-4">
+      <section className="py-12 md:py-20 bg-primary w-full overflow-hidden">
+        <div className="container mx-auto px-2 sm:px-4 max-w-full">
           <Carousel
             opts={{
               align: "start",
@@ -87,7 +87,7 @@ const PresentationCarousel = () => {
       </section>
 
       <Dialog open={selectedImageIndex !== null} onOpenChange={() => setSelectedImageIndex(null)}>
-        <DialogContent className="max-w-[100vw] max-h-[100vh] w-full h-full p-0 border-0 bg-black/95 md:max-w-[95vw] md:max-h-[95vh] md:bg-transparent">
+        <DialogContent className="max-w-[100vw] max-h-[100vh] w-full h-full p-0 border-0 bg-black/95 md:max-w-[95vw] md:max-h-[95vh] overflow-hidden">
           <button
             onClick={() => setSelectedImageIndex(null)}
             className="absolute top-2 right-2 md:-top-12 md:right-0 z-50 bg-background/80 backdrop-blur-sm text-foreground p-2 md:p-2 rounded-full hover:bg-background transition-colors"

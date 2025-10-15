@@ -17,9 +17,9 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-primary py-12 md:py-16 px-4">
-      <div className="container mx-auto max-w-6xl">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-8">
+    <footer className="bg-primary py-12 md:py-16 px-4 w-full overflow-hidden">
+      <div className="container mx-auto max-w-6xl w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-12 mb-8 w-full">
           {/* Logo e Descrição */}
           <div className="space-y-4">
             <img 

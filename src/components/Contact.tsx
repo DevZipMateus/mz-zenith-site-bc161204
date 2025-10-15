@@ -3,8 +3,8 @@ import instagramQRCode from "@/assets/instagram-qrcode.png";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-12 md:py-20 px-4 bg-background">
-      <div className="container mx-auto max-w-6xl">
+    <section id="contact" className="py-12 md:py-20 px-4 bg-background w-full overflow-hidden">
+      <div className="container mx-auto max-w-6xl w-full">
         <div className="text-center mb-12 md:mb-16 animate-fade-in">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-accent mb-4">
             Entre em contato
@@ -14,7 +14,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 w-full">
           <div className="space-y-8 animate-fade-in">
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -117,12 +117,12 @@ const Contact = () => {
                       <Instagram size={24} />
                     </a>
                   </div>
-                  <div className="bg-white p-4 rounded-xl shadow-lg">
+                  <div className="bg-white p-4 rounded-xl shadow-lg max-w-full">
                     <p className="text-sm font-semibold text-foreground mb-2 text-center">Siga-nos no Instagram</p>
                     <img 
                       src={instagramQRCode} 
                       alt="QR Code Instagram MZ Consultoria" 
-                      className="w-40 h-40 mx-auto"
+                      className="w-32 h-32 sm:w-40 sm:h-40 mx-auto max-w-full"
                     />
                   </div>
                 </div>
