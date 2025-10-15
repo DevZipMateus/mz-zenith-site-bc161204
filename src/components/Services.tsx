@@ -37,6 +37,61 @@ const Services = () => {
           </p>
         </div>
 
+        {/* Novos Serviços em Quadros Azuis */}
+        <div className="mb-12 md:mb-16">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+            {/* Serviço 1 */}
+            <div className="bg-primary p-6 rounded-xl shadow-lg">
+              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+                Consultoria em organização financeira para pessoas físicas
+              </h4>
+              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+                Ajudamos pessoas a entenderem melhor sua relação com o dinheiro, organizar receitas e despesas, criar planejamento personalizado e conquistar mais clareza e tranquilidade para alcançar seus objetivos financeiros.
+              </p>
+            </div>
+
+            {/* Serviço 2 */}
+            <div className="bg-primary p-6 rounded-xl shadow-lg">
+              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+                Consultoria Estratégica para empresas
+              </h4>
+              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+                Atuamos lado a lado com a gestão da empresa para: Analisar fluxo de caixa e resultados (DRE, indicadores), Definir metas e plano estratégico financeiro, Elaborar Plano de Recuperação para empresas no vermelho, Estruturar Plano de Expansão para empresas em crescimento.
+              </p>
+            </div>
+
+            {/* Serviço 3 */}
+            <div className="bg-primary p-6 rounded-xl shadow-lg">
+              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+                Consultoria para Casais: "Financeiro a Dois"
+              </h4>
+              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+                Ajudamos casais a organizarem suas finanças de forma conjunta, alinhando sonhos, eliminando conflitos com o dinheiro e construindo um planejamento financeiro sólido para o futuro.
+              </p>
+            </div>
+
+            {/* Serviço 4 */}
+            <div className="bg-primary p-6 rounded-xl shadow-lg">
+              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+                Soluções completas para potencializar seus resultados
+              </h4>
+              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+                Atuamos com investimentos estratégicos, gestão de milhas e benefícios de cartão, aquisição de bens, planejamento de aposentadoria, proteção de patrimônio e estruturação de holding, sempre com foco em segurança, crescimento e tranquilidade financeira.
+              </p>
+            </div>
+
+            {/* Serviço 5 */}
+            <div className="bg-primary p-6 rounded-xl shadow-lg sm:col-span-2 lg:col-span-1">
+              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+                eGestor - Sistema Online Completo
+              </h4>
+              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+                Utilizamos o eGestor, um sistema online completo que facilita a organização e o controle financeiro da sua empresa. Com ele, você acompanha em tempo real o fluxo de caixa, emite notas fiscais, controla vendas, estoque, contas a pagar e a receber de forma prática e segura.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="mb-12 md:mb-16">
           <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6 md:mb-8 text-center">Produtos</h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
