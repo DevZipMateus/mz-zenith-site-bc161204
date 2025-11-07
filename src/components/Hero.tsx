@@ -11,14 +11,26 @@ const Hero = () => {
       <div className="container mx-auto max-w-6xl relative z-10 h-full flex flex-col justify-between py-12 md:py-16 w-full">
         <div className="flex-1 flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:gap-12 w-full">
           <div className="flex-1 text-center md:text-left space-y-3 md:space-y-4 lg:space-y-6 w-full max-w-full">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
-              <span className="block" style={{
-              color: '#24435c'
-            }}>APRESENTAÇÃO</span>
-              <span className="block" style={{
-              color: '#648199'
-            }}>COMERCIAL</span>
-            </h1>
+            <div className="relative">
+              {/* Elementos decorativos */}
+              <div className="hidden md:block absolute -left-12 lg:-left-16 top-0">
+                {/* Quadrado superior */}
+                <div className="w-5 h-16 mb-2" style={{ backgroundColor: '#24435c' }} />
+                {/* Linha vertical */}
+                <div className="w-0.5 h-20 mx-auto" style={{ backgroundColor: '#648199' }} />
+                {/* Quadrado inferior */}
+                <div className="w-8 h-8 mt-2" style={{ backgroundColor: '#2d3748' }} />
+              </div>
+              
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
+                <span className="block" style={{
+                color: '#24435c'
+              }}>APRESENTAÇÃO</span>
+                <span className="block" style={{
+                color: '#648199'
+              }}>COMERCIAL</span>
+              </h1>
+            </div>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-[#648199] max-w-2xl mx-auto md:mx-0">
               Oferecemos soluções financeiras completas e integradas que promovem clareza, organização e crescimento para pessoas e empresas.
             </p>
