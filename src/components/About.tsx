@@ -17,8 +17,9 @@ const About = () => {
             <img src={teamImage} alt="Equipe MZ Consultoria Financeira" className="rounded-xl shadow-lg w-full h-auto object-cover" />
           </div>
           
-          <div className="animate-fade-in" style={{
-          animationDelay: "0.2s"
+          <div className="animate-fade-in bg-white p-6 md:p-8 rounded-xl shadow-lg border-l-4" style={{
+          animationDelay: "0.2s",
+          borderLeftColor: '#24445d'
         }}>
             <p className="text-base md:text-lg leading-relaxed mb-4 text-slate-950">
               A MZ Consultoria Financeira nasceu com o propósito de ajudar pessoas e empresas a conquistarem mais clareza, organização e crescimento em sua vida financeira e empresarial.
