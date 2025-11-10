@@ -1,5 +1,5 @@
 import { Presentation, Users, TrendingUp, BookOpen } from "lucide-react";
-import palestra1 from "@/assets/palestra-1.jpg";
+import palestra1 from "@/assets/palestra-presentation.jpg";
 import palestra2 from "@/assets/palestra-2.jpg";
 
 const Palestras = () => {
