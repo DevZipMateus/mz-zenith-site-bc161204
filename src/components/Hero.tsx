@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg-new.png";
-import heroLogo from "@/assets/hero-logo.png";
+import logo from "@/assets/logo-new.png";
 const Hero = () => {
   return <section id="hero" className="relative min-h-screen flex items-center px-4 sm:px-6 lg:px-8 text-foreground overflow-hidden w-full">
       <div className="absolute inset-0 bg-cover bg-no-repeat" style={{
@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="flex-1 flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:gap-12 w-full">
           <div className="flex-1 text-center md:text-left space-y-3 md:space-y-4 lg:space-y-6 w-full max-w-full">
             <div className="flex justify-center md:justify-start mb-4 md:mb-6">
-              <img src={heroLogo} alt="MZ Consultoria Financeira" className="w-48 sm:w-56 md:w-64 lg:w-72 h-auto object-contain" />
+              <img src={logo} alt="MZ Consultoria Financeira" className="h-16 sm:h-20 md:h-24 w-auto object-contain" />
             </div>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-[#648199] max-w-2xl mx-auto md:mx-0">
               Oferecemos soluções financeiras completas e integradas que promovem clareza, organização e crescimento para pessoas e empresas.
@@ -20,10 +20,6 @@ const Hero = () => {
             <p className="text-xs sm:text-sm md:text-base lg:text-lg text-primary italic font-medium max-w-2xl mx-auto md:mx-0">
               Planejar com inteligência, Viver com liberdade
             </p>
-          </div>
-          
-          <div className="flex-1 flex justify-center md:justify-end w-full max-w-full">
-            <img src={heroLogo} alt="MZ Consultoria Financeira" className="w-full max-w-[250px] sm:max-w-[320px] md:max-w-[400px] lg:max-w-[500px] h-auto object-contain" />
           </div>
         </div>
         
