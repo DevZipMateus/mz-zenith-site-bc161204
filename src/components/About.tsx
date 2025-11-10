@@ -35,14 +35,14 @@ const About = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 w-full">
               <div className="bg-card p-4 rounded-lg shadow-md border border-border w-full">
-                <img src={mariliaImage} alt="Marília Zereu, CEO da MZ Consultoria" className="rounded-lg w-full h-48 object-cover mb-3" />
+                <img src={mariliaImage} alt="Marília Zereu, CEO da MZ Consultoria" className="rounded-full w-full aspect-square object-cover mb-3" />
                 <p className="text-sm md:text-base text-slate-950 leading-relaxed">
                   Marília Zereu, CEO da MZ Consultoria, Contadora, Perita Contábil, Educadora financeira e consultora financeira especializada no atendimento a pessoas físicas e jurídicas, com foco em organização, controle e planejamento financeiro.
                 </p>
               </div>
 
               <div className="bg-card p-4 rounded-lg shadow-md border border-border">
-                <img src={nereuImage} alt="Nereu Kuntz, Administrador de empresas" className="rounded-lg w-full h-48 object-cover mb-3" />
+                <img src={nereuImage} alt="Nereu Kuntz, Administrador de empresas" className="rounded-full w-full aspect-square object-cover mb-3" />
                 <p className="text-sm md:text-base text-slate-950 leading-relaxed">
                   Nereu Kuntz, Administrador de empresas e Planejador Financeiro.
                 </p>
