@@ -1,6 +1,6 @@
 import { Target, Eye, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import teamImage from "@/assets/team-mz.jpg";
+import teamImage from "@/assets/team-meeting-new.jpg";
 import mariliaImage from "@/assets/marilia-zereu.jpg";
 import nereuImage from "@/assets/nereu-kuntz.jpg";
 const About = () => {
