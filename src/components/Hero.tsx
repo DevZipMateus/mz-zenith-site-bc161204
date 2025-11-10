@@ -11,6 +11,9 @@ const Hero = () => {
       <div className="container mx-auto max-w-6xl relative z-10 h-full flex flex-col justify-between py-12 md:py-16 w-full">
         <div className="flex-1 flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:gap-12 w-full">
           <div className="flex-1 text-center md:text-left space-y-3 md:space-y-4 lg:space-y-6 w-full max-w-full">
+            <div className="flex justify-center md:justify-start mb-4 md:mb-6">
+              <img src={heroLogo} alt="MZ Consultoria Financeira" className="w-48 sm:w-56 md:w-64 lg:w-72 h-auto object-contain" />
+            </div>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-[#648199] max-w-2xl mx-auto md:mx-0">
               Oferecemos soluções financeiras completas e integradas que promovem clareza, organização e crescimento para pessoas e empresas.
             </p>
