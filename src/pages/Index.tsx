@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import PresentationCarousel from "@/components/PresentationCarousel";
 import EgestorERP from "@/components/EgestorERP";
 import About from "@/components/About";
 import FinancialSolutions from "@/components/FinancialSolutions";
@@ -16,7 +15,6 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
-        <PresentationCarousel />
         <About />
         <FinancialSolutions />
         <EgestorERP />
