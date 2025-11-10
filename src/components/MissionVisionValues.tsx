@@ -2,10 +2,10 @@ import { Target, Eye, Heart } from "lucide-react";
 
 const MissionVisionValues = () => {
   return (
-    <section className="py-12 md:py-20 px-4 bg-background w-full overflow-hidden">
+    <section className="py-12 md:py-20 px-4 bg-white w-full overflow-hidden">
       <div className="container mx-auto max-w-6xl w-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 w-full">
-          <div className="bg-white p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2 w-full" style={{ borderColor: '#24445d' }}>
+          <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in hover:-translate-y-2 w-full">
             <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center mb-4 md:mb-6">
               <Target style={{ color: '#ffd66d' }} size={28} />
             </div>
@@ -15,8 +15,7 @@ const MissionVisionValues = () => {
             </p>
           </div>
 
-          <div className="bg-white p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{
-            borderColor: '#24445d',
+          <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in hover:-translate-y-2" style={{
             animationDelay: "0.1s"
           }}>
             <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center mb-4 md:mb-6">
@@ -28,8 +27,7 @@ const MissionVisionValues = () => {
             </p>
           </div>
 
-          <div className="bg-white p-6 md:p-8 shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{
-            borderColor: '#24445d',
+          <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in hover:-translate-y-2" style={{
             animationDelay: "0.2s"
           }}>
             <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center mb-4 md:mb-6">
