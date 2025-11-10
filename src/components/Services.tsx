@@ -90,18 +90,18 @@ const Services = () => {
         </div>
 
         <div className="mb-12 md:mb-16 w-full">
-          <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6 md:mb-8 text-center">Produtos</h3>
+          <h3 className="text-xl md:text-2xl font-bold mb-6 md:mb-8 text-center" style={{ color: '#24445d' }}>Produtos</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 w-full">
-            {products.map((product, index) => <div key={index} className="bg-card p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all animate-fade-in border border-border hover:border-accent group" style={{
+            {products.map((product, index) => <div key={index} className="bg-white p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in" style={{
             animationDelay: `${index * 0.1}s`
           }}>
-                <div className="bg-accent/20 w-14 h-14 md:w-16 md:h-16 rounded-lg flex items-center justify-center mb-4 md:mb-6 text-accent-foreground group-hover:bg-accent/30 transition-colors">
+                <div className="w-14 h-14 md:w-16 md:h-16 rounded-lg flex items-center justify-center mb-4 md:mb-6 transition-colors" style={{ backgroundColor: '#ffd66d', color: '#24445d' }}>
                   {product.icon}
                 </div>
-                <h4 className="text-lg md:text-xl font-bold text-card-foreground mb-3">
+                <h4 className="text-lg md:text-xl font-bold mb-3" style={{ color: '#24445d' }}>
                   {product.title}
                 </h4>
-                <p className="text-sm md:text-base text-slate-950">
+                <p className="text-sm md:text-base" style={{ color: '#24445d' }}>
                   {product.description}
                 </p>
               </div>)}
