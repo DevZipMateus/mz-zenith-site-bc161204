@@ -70,7 +70,7 @@ const FinancialSolutions = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 md:gap-4 w-full">
             {/* Card 1 */}
-            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center w-full">
+            <div className="bg-background rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center w-full">
               <div className="w-10 h-10 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: '#24445d' }}>
                 <span className="text-white font-bold">1</span>
               </div>
@@ -85,7 +85,7 @@ const FinancialSolutions = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.1s" }}>
+            <div className="bg-background rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.1s" }}>
               <div className="w-10 h-10 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: '#24445d' }}>
                 <span className="text-white font-bold">2</span>
               </div>
@@ -100,7 +100,7 @@ const FinancialSolutions = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.2s" }}>
+            <div className="bg-background rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.2s" }}>
               <div className="w-10 h-10 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: '#24445d' }}>
                 <span className="text-white font-bold">3</span>
               </div>
@@ -115,7 +115,7 @@ const FinancialSolutions = () => {
             </div>
 
             {/* Card 4 */}
-            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.3s" }}>
+            <div className="bg-background rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.3s" }}>
               <div className="w-10 h-10 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: '#24445d' }}>
                 <span className="text-white font-bold">4</span>
               </div>
@@ -130,7 +130,7 @@ const FinancialSolutions = () => {
             </div>
 
             {/* Card 5 */}
-            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.4s" }}>
+            <div className="bg-background rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.4s" }}>
               <div className="w-10 h-10 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: '#24445d' }}>
                 <span className="text-white font-bold">5</span>
               </div>
