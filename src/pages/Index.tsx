@@ -17,8 +17,8 @@ const Index = () => {
         <Hero />
         <About />
         <FinancialSolutions />
-        <EgestorERP />
         <Services />
+        <EgestorERP />
         <Palestras />
         <Contact />
       </main>
