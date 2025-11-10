@@ -81,12 +81,22 @@ const Services = () => {
             </div>
 
             {/* Serviço 5 */}
-            <div className="bg-primary p-6 rounded-xl shadow-lg sm:col-span-2 lg:col-span-1">
+            <div className="bg-primary p-6 rounded-xl shadow-lg">
               <h4 className="text-lg font-bold text-primary-foreground mb-3">
-                eGestor - Sistema Online Completo
+                Gestão Contábil completa para sua empresa
               </h4>
               <p className="text-sm text-primary-foreground/90 leading-relaxed">
-                Utilizamos o eGestor, um sistema online completo que facilita a organização e o controle financeiro da sua empresa. Com ele, você acompanha em tempo real o fluxo de caixa, emite notas fiscais, controla vendas, estoque, contas a pagar e a receber de forma prática e segura.
+                Escrituração contábil, elaboração de balanços, DRE, Apuração de impostos, escrituração fiscal e cumprimento das obrigações tributárias, Folha de pagamento, férias, rescisões e todas as obrigações relacionadas a colaboradores.
+              </p>
+            </div>
+
+            {/* Serviço 6 */}
+            <div className="bg-primary p-6 rounded-xl shadow-lg">
+              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+                Planejamento Tributário e Abertura/Encerramento de Empresas
+              </h4>
+              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+                Estratégias para reduzir a carga tributária de forma legal e segura para sua empresa. Suporte completo para legalização, alterações contratuais ou encerramento de atividades.
               </p>
             </div>
           </div>
