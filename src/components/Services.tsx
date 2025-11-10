@@ -13,76 +13,76 @@ const Services = () => {
     title: "Treinamentos",
     description: "Capacitação personalizada para equipes e gestores sobre controle financeiro e tomada de decisão estratégica."
   }];
-  return <section id="services" className="py-12 md:py-20 px-4 bg-muted/30 w-full overflow-hidden">
+  return <section id="services" className="py-12 md:py-20 px-4 bg-white w-full overflow-hidden">
       <div className="container mx-auto max-w-6xl w-full">
         <div className="text-center mb-12 md:mb-16 animate-fade-in">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-accent mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4" style={{ color: '#24445d' }}>
             Nossos serviços
           </h2>
-          <p className="text-base md:text-lg text-foreground max-w-3xl mx-auto">
+          <p className="text-base md:text-lg max-w-3xl mx-auto" style={{ color: '#24445d' }}>
             Soluções completas e integradas para pessoas e empresas que buscam clareza, organização e crescimento financeiro
           </p>
         </div>
 
-        {/* Novos Serviços em Quadros Azuis */}
+        {/* Novos Serviços em Quadros Brancos */}
         <div className="mb-12 md:mb-16 w-full">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full">
             {/* Serviço 1 */}
-            <div className="bg-primary p-6 rounded-xl shadow-lg w-full">
-              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 w-full">
+              <h4 className="text-lg font-bold mb-3" style={{ color: '#24445d' }}>
                 Consultoria em organização financeira para pessoas físicas
               </h4>
-              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+              <p className="text-sm leading-relaxed" style={{ color: '#24445d' }}>
                 Ajudamos pessoas a entenderem melhor sua relação com o dinheiro, organizar receitas e despesas, criar planejamento personalizado e conquistar mais clareza e tranquilidade para alcançar seus objetivos financeiros.
               </p>
             </div>
 
             {/* Serviço 2 */}
-            <div className="bg-primary p-6 rounded-xl shadow-lg">
-              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <h4 className="text-lg font-bold mb-3" style={{ color: '#24445d' }}>
                 Consultoria Estratégica para empresas
               </h4>
-              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+              <p className="text-sm leading-relaxed" style={{ color: '#24445d' }}>
                 Atuamos lado a lado com a gestão da empresa para: Analisar fluxo de caixa e resultados (DRE, indicadores), Definir metas e plano estratégico financeiro, Elaborar Plano de Recuperação para empresas no vermelho, Estruturar Plano de Expansão para empresas em crescimento.
               </p>
             </div>
 
             {/* Serviço 3 */}
-            <div className="bg-primary p-6 rounded-xl shadow-lg">
-              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <h4 className="text-lg font-bold mb-3" style={{ color: '#24445d' }}>
                 Consultoria para Casais: "Financeiro a Dois"
               </h4>
-              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+              <p className="text-sm leading-relaxed" style={{ color: '#24445d' }}>
                 Ajudamos casais a organizarem suas finanças de forma conjunta, alinhando sonhos, eliminando conflitos com o dinheiro e construindo um planejamento financeiro sólido para o futuro.
               </p>
             </div>
 
             {/* Serviço 4 */}
-            <div className="bg-primary p-6 rounded-xl shadow-lg">
-              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <h4 className="text-lg font-bold mb-3" style={{ color: '#24445d' }}>
                 Soluções completas para potencializar seus resultados
               </h4>
-              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+              <p className="text-sm leading-relaxed" style={{ color: '#24445d' }}>
                 Atuamos com investimentos estratégicos, gestão de milhas e benefícios de cartão, aquisição de bens, planejamento de aposentadoria, proteção de patrimônio e estruturação de holding, sempre com foco em segurança, crescimento e tranquilidade financeira.
               </p>
             </div>
 
             {/* Serviço 5 */}
-            <div className="bg-primary p-6 rounded-xl shadow-lg">
-              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <h4 className="text-lg font-bold mb-3" style={{ color: '#24445d' }}>
                 Gestão Contábil completa para sua empresa
               </h4>
-              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+              <p className="text-sm leading-relaxed" style={{ color: '#24445d' }}>
                 Escrituração contábil, elaboração de balanços, DRE, Apuração de impostos, escrituração fiscal e cumprimento das obrigações tributárias, Folha de pagamento, férias, rescisões e todas as obrigações relacionadas a colaboradores.
               </p>
             </div>
 
             {/* Serviço 6 */}
-            <div className="bg-primary p-6 rounded-xl shadow-lg">
-              <h4 className="text-lg font-bold text-primary-foreground mb-3">
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <h4 className="text-lg font-bold mb-3" style={{ color: '#24445d' }}>
                 Planejamento Tributário e Abertura/Encerramento de Empresas
               </h4>
-              <p className="text-sm text-primary-foreground/90 leading-relaxed">
+              <p className="text-sm leading-relaxed" style={{ color: '#24445d' }}>
                 Estratégias para reduzir a carga tributária de forma legal e segura para sua empresa. Suporte completo para legalização, alterações contratuais ou encerramento de atividades.
               </p>
             </div>
