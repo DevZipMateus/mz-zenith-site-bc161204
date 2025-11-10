@@ -7,7 +7,6 @@ import FamiliarProblems from "@/components/FamiliarProblems";
 import FinancialSolutions from "@/components/FinancialSolutions";
 import Services from "@/components/Services";
 import Palestras from "@/components/Palestras";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -24,7 +23,6 @@ const Index = () => {
         <Services />
         <EgestorERP />
         <Palestras />
-        <Contact />
       </main>
       <Footer />
       <WhatsAppButton />
