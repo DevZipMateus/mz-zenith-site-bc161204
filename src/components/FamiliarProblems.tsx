@@ -11,7 +11,7 @@ const FamiliarProblems = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 lg:gap-8 max-w-5xl mx-auto w-full">
-          <div className="bg-white p-6 md:p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border-2 w-full" style={{ borderColor: '#24445d' }}>
+          <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in hover:-translate-y-2 w-full">
             <div className="text-3xl md:text-4xl mb-3">💸</div>
             <h3 className="text-lg md:text-xl font-bold text-stone-950 mb-3">
               "Eu trabalho tanto, mas nunca vejo o dinheiro sobrar no final do mês."
@@ -21,8 +21,7 @@ const FamiliarProblems = () => {
             </p>
           </div>
 
-          <div className="bg-white p-6 md:p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{ 
-            borderColor: '#24445d',
+          <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in hover:-translate-y-2" style={{ 
             animationDelay: "0.1s"
           }}>
             <div className="text-3xl md:text-4xl mb-3">📉</div>
@@ -34,8 +33,7 @@ const FamiliarProblems = () => {
             </p>
           </div>
 
-          <div className="bg-white p-6 md:p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{ 
-            borderColor: '#24445d',
+          <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in hover:-translate-y-2" style={{ 
             animationDelay: "0.2s"
           }}>
             <div className="text-3xl md:text-4xl mb-3">🧾</div>
@@ -47,8 +45,7 @@ const FamiliarProblems = () => {
             </p>
           </div>
 
-          <div className="bg-white p-6 md:p-8 rounded-xl shadow-md hover:shadow-lg transition-all animate-fade-in border-2" style={{ 
-            borderColor: '#24445d',
+          <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in hover:-translate-y-2" style={{ 
             animationDelay: "0.3s"
           }}>
             <div className="text-3xl md:text-4xl mb-3">📊</div>
