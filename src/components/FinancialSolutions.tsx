@@ -5,7 +5,7 @@ const FinancialSolutions = () => {
       <div className="container mx-auto max-w-6xl w-full">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="animate-fade-in">
-            <img src={clientMeetingImage} alt="Reunião com clientes da MZ Consultoria Financeira" className="rounded-xl shadow-2xl w-full h-auto object-cover grayscale" />
+            <img src={clientMeetingImage} alt="Reunião com clientes da MZ Consultoria Financeira" className="rounded-xl shadow-2xl w-full h-auto object-cover" />
           </div>
 
           <div className="animate-fade-in" style={{
