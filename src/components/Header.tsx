@@ -42,14 +42,14 @@ const Header = () => {
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
             <img src={logo} alt="MZ Consultoria Financeira" className="h-12 w-auto" />
-            <span className="text-xl font-bold text-primary hidden sm:block">
+            <span className="text-xl font-bold text-white hidden sm:block">
               MZ Consultoria
             </span>
           </button>
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 text-primary hover:bg-muted rounded-lg transition-colors"
+            className="md:hidden p-2 text-white hover:bg-white/10 rounded-lg transition-colors"
             aria-label="Menu"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -59,7 +59,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollToSection("hero")}
-                className="text-foreground hover:text-primary font-medium transition-colors"
+                className="text-white hover:text-white/80 font-medium transition-colors"
               >
                 Início
               </button>
@@ -67,7 +67,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollToSection("about")}
-                className="text-foreground hover:text-primary font-medium transition-colors"
+                className="text-white hover:text-white/80 font-medium transition-colors"
               >
                 Sobre
               </button>
@@ -75,7 +75,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollToSection("services")}
-                className="text-foreground hover:text-primary font-medium transition-colors"
+                className="text-white hover:text-white/80 font-medium transition-colors"
               >
                 Serviços
               </button>
@@ -83,7 +83,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollToSection("palestras")}
-                className="text-foreground hover:text-primary font-medium transition-colors"
+                className="text-white hover:text-white/80 font-medium transition-colors"
               >
                 Palestras
               </button>
@@ -91,7 +91,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollToSection("contact")}
-                className="text-foreground hover:text-primary font-medium transition-colors"
+                className="text-white hover:text-white/80 font-medium transition-colors"
               >
                 Contato
               </button>
@@ -114,7 +114,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollToSection("hero")}
-                className="block w-full text-left px-4 py-2 text-foreground hover:bg-muted rounded-lg transition-colors"
+                className="block w-full text-left px-4 py-2 text-white hover:bg-white/10 rounded-lg transition-colors"
               >
                 Início
               </button>
@@ -122,7 +122,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollToSection("about")}
-                className="block w-full text-left px-4 py-2 text-foreground hover:bg-muted rounded-lg transition-colors"
+                className="block w-full text-left px-4 py-2 text-white hover:bg-white/10 rounded-lg transition-colors"
               >
                 Sobre
               </button>
@@ -130,7 +130,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollToSection("services")}
-                className="block w-full text-left px-4 py-2 text-foreground hover:bg-muted rounded-lg transition-colors"
+                className="block w-full text-left px-4 py-2 text-white hover:bg-white/10 rounded-lg transition-colors"
               >
                 Serviços
               </button>
@@ -138,7 +138,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollToSection("palestras")}
-                className="block w-full text-left px-4 py-2 text-foreground hover:bg-muted rounded-lg transition-colors"
+                className="block w-full text-left px-4 py-2 text-white hover:bg-white/10 rounded-lg transition-colors"
               >
                 Palestras
               </button>
@@ -146,7 +146,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollToSection("contact")}
-                className="block w-full text-left px-4 py-2 text-foreground hover:bg-muted rounded-lg transition-colors"
+                className="block w-full text-left px-4 py-2 text-white hover:bg-white/10 rounded-lg transition-colors"
               >
                 Contato
               </button>
