@@ -1,4 +1,5 @@
 import logo from "@/assets/logo-new.png";
+import instagramQRCode from "@/assets/instagram-qrcode.png";
 import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
@@ -133,7 +134,7 @@ const Footer = () => {
             {/* Redes Sociais */}
             <div className="flex gap-4 mt-6">
               <a 
-                href="https://www.instagram.com/mz_consultoriafinanceira" 
+                href="https://www.instagram.com/zereufinancas?igsh=MXE4bGh1dThic2p5NQ==" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
@@ -142,16 +143,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a 
-                href="#" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook size={20} />
-              </a>
-              <a 
-                href="#" 
+                href="https://www.linkedin.com/in/marilia-zereu-01330034" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
@@ -159,6 +151,16 @@ const Footer = () => {
               >
                 <Linkedin size={20} />
               </a>
+            </div>
+
+            {/* QR Code Instagram */}
+            <div className="bg-white p-3 rounded-xl shadow-lg mt-6 inline-block">
+              <p className="text-xs font-semibold text-foreground mb-2 text-center">Siga-nos no Instagram</p>
+              <img 
+                src={instagramQRCode} 
+                alt="QR Code Instagram MZ Consultoria" 
+                className="w-24 h-24 mx-auto"
+              />
             </div>
           </div>
         </div>
