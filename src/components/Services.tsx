@@ -1,4 +1,4 @@
-import { BookOpen, Users, Briefcase, Calculator, TrendingUp, Presentation } from "lucide-react";
+import { BookOpen, Users, TrendingUp } from "lucide-react";
 const Services = () => {
   const products = [{
     icon: <BookOpen size={32} />,
@@ -12,19 +12,6 @@ const Services = () => {
     icon: <TrendingUp size={32} />,
     title: "Treinamentos",
     description: "Capacitação personalizada para equipes e gestores sobre controle financeiro e tomada de decisão estratégica."
-  }];
-  const services = [{
-    icon: <Briefcase size={32} />,
-    title: "Consultoria",
-    description: "Orientação estratégica para pessoa física, casais e empresas, com foco em organização, planejamento de metas e aposentadoria."
-  }, {
-    icon: <Calculator size={32} />,
-    title: "BPO Financeiro",
-    description: "Gestão completa do setor financeiro: fluxo de caixa, controle de custos, análise de indicadores e relatórios gerenciais."
-  }, {
-    icon: <Presentation size={32} />,
-    title: "Palestras",
-    description: "Palestras motivacionais e educativas sobre mentalidade financeira, organização e construção de futuro sólido."
   }];
   return <section id="services" className="py-12 md:py-20 px-4 bg-muted/30 w-full overflow-hidden">
       <div className="container mx-auto max-w-6xl w-full">
@@ -116,25 +103,6 @@ const Services = () => {
                 </h4>
                 <p className="text-sm md:text-base text-slate-950">
                   {product.description}
-                </p>
-              </div>)}
-          </div>
-        </div>
-
-        <div className="w-full">
-          <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6 md:mb-8 text-center">Serviços</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 w-full">
-            {services.map((service, index) => <div key={index} className="bg-card p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all animate-fade-in border border-border hover:border-primary group" style={{
-            animationDelay: `${index * 0.1}s`
-          }}>
-                <div className="bg-primary/10 w-14 h-14 md:w-16 md:h-16 rounded-lg flex items-center justify-center mb-4 md:mb-6 text-primary group-hover:bg-primary/20 transition-colors">
-                  {service.icon}
-                </div>
-                <h4 className="text-lg md:text-xl font-bold text-card-foreground mb-3">
-                  {service.title}
-                </h4>
-                <p className="text-sm md:text-base text-neutral-950">
-                  {service.description}
                 </p>
               </div>)}
           </div>
