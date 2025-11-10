@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import EgestorERP from "@/components/EgestorERP";
 import About from "@/components/About";
+import MissionVisionValues from "@/components/MissionVisionValues";
 import FinancialSolutions from "@/components/FinancialSolutions";
 import Services from "@/components/Services";
 import Palestras from "@/components/Palestras";
@@ -16,6 +17,7 @@ const Index = () => {
       <main>
         <Hero />
         <About />
+        <MissionVisionValues />
         <FinancialSolutions />
         <Services />
         <EgestorERP />
