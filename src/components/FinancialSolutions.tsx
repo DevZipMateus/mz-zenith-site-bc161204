@@ -1,5 +1,5 @@
 import { Check, BarChart3, Compass, Calendar, Lightbulb, Coins } from "lucide-react";
-import clientMeetingImage from "@/assets/client-meeting.jpg";
+import clientMeetingImage from "@/assets/client-working.jpg";
 const FinancialSolutions = () => {
   return <section className="py-12 md:py-20 px-4 bg-background w-full overflow-hidden">
       <div className="container mx-auto max-w-6xl w-full">
