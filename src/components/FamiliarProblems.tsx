@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const FamiliarProblems = () => {
   return (
-    <section className="py-12 md:py-20 px-4 bg-background w-full overflow-hidden">
+    <section className="py-12 md:py-20 px-4 w-full overflow-hidden" style={{ backgroundColor: '#f7fff7' }}>
       <div className="container mx-auto max-w-6xl w-full">
         <div className="text-center mb-10 md:mb-12 animate-fade-in">
           <h2 className="text-2xl sm:text-3xl font-bold text-stone-950 md:text-4xl">
