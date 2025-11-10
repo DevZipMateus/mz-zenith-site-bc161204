@@ -8,7 +8,7 @@ const Hero = () => {
       backgroundImage: `url(${heroBg})`,
       backgroundPosition: 'center 40%'
     }} />
-      <div className="absolute inset-0" style={{ backgroundColor: 'rgba(231, 233, 228, 0.9)' }} />
+      <div className="absolute inset-0" style={{ backgroundColor: '#24445d' }} />
       <div className="container mx-auto max-w-6xl relative z-10 h-full flex flex-col justify-between py-12 md:py-16 w-full">
         <div className="flex-1 flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:gap-12 w-full">
           <div className="flex-1 text-left space-y-4 md:space-y-6 w-full max-w-full">
