@@ -101,7 +101,7 @@ const Header = () => {
                 href="https://wa.me/5551981821137"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary text-primary-foreground px-6 py-2.5 rounded-lg font-medium hover:bg-primary/90 transition-colors"
+                className="bg-accent text-accent-foreground px-6 py-2.5 rounded-lg font-medium hover:bg-accent/90 transition-colors"
               >
                 Fale conosco
               </a>
@@ -156,7 +156,7 @@ const Header = () => {
                 href="https://wa.me/5551981821137"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center bg-primary text-primary-foreground px-6 py-2.5 rounded-lg font-medium hover:bg-primary/90 transition-colors"
+                className="block w-full text-center bg-accent text-accent-foreground px-6 py-2.5 rounded-lg font-medium hover:bg-accent/90 transition-colors"
               >
                 Fale conosco
               </a>
