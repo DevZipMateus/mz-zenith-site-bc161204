@@ -105,7 +105,7 @@ const Contact = () => {
                   <Linkedin size={24} />
                 </a>
                 <a
-                  href="https://www.instagram.com/zereufinancas?igsh=MXE4bGh1dThic2p5NQ=="
+                  href="https://www.instagram.com/mz_consultoriafinanceira/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-accent/20 w-14 h-14 rounded-lg flex items-center justify-center text-accent-foreground hover:bg-accent hover:text-accent-foreground transition-all"

@@ -134,7 +134,7 @@ const Footer = () => {
             {/* Redes Sociais */}
             <div className="flex gap-4 mt-6">
               <a 
-                href="https://www.instagram.com/zereufinancas?igsh=MXE4bGh1dThic2p5NQ==" 
+                href="https://www.instagram.com/mz_consultoriafinanceira/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
