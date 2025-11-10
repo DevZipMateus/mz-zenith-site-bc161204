@@ -56,12 +56,12 @@ const FinancialSolutions = () => {
         </div>
 
         {/* O Caminho do Lucro */}
-        <div className="mt-16 md:mt-24">
+        <div className="mt-16 md:mt-24 -mx-4 px-4 py-12 md:py-16" style={{ backgroundColor: '#24445d' }}>
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-stone-950 mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
               O Caminho do Lucro
             </h2>
-            <p className="text-base md:text-lg text-stone-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base md:text-lg text-white/90 max-w-4xl mx-auto leading-relaxed">
               O caminho para uma gestão financeira sólida é construído com base em clareza e estratégia. 
               Nossa metodologia foi desenvolvida para oferecer aos clientes uma visão precisa de seus números 
               e direcioná-los com segurança ao alcance de seus objetivos.
