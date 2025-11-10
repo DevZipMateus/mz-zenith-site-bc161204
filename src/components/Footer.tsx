@@ -18,7 +18,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-primary py-12 md:py-16 px-4 w-full overflow-hidden">
+    <footer className="py-12 md:py-16 px-4 w-full overflow-hidden" style={{ backgroundColor: '#24445d' }}>
       <div className="container mx-auto max-w-6xl w-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-12 mb-8 w-full">
           {/* Logo e Descrição */}
