@@ -68,82 +68,80 @@ const FinancialSolutions = () => {
             </p>
           </div>
 
-          <div className="bg-stone-900 rounded-2xl p-4 md:p-6 lg:p-8 w-full overflow-hidden">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 md:gap-4 w-full">
-              {/* Card 1 */}
-              <div className="bg-[#f7fff7] rounded-xl p-4 flex flex-col items-center text-center w-full">
-                <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center mb-3">
-                  <span className="text-white font-bold">1</span>
-                </div>
-                <BarChart3 className="mb-3" size={28} style={{ color: '#ffd66d' }} strokeWidth={2} />
-                <h3 className="font-bold text-stone-950 mb-2 text-sm">
-                  Diagnóstico Personalizado
-                </h3>
-                <p className="text-xs text-stone-700 leading-relaxed">
-                  Realizamos uma análise completa da situação financeira da empresa para identificar pontos fortes, riscos e oportunidades. 
-                  Essa etapa é essencial para compreender com clareza onde você está e para onde pode ir.
-                </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 md:gap-4 w-full">
+            {/* Card 1 */}
+            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center w-full">
+              <div className="w-10 h-10 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: '#24445d' }}>
+                <span className="text-white font-bold">1</span>
               </div>
+              <BarChart3 className="mb-3" size={28} style={{ color: '#ffd66d' }} strokeWidth={2} />
+              <h3 className="font-bold text-stone-950 mb-2 text-sm">
+                Diagnóstico Personalizado
+              </h3>
+              <p className="text-xs text-stone-700 leading-relaxed">
+                Realizamos uma análise completa da situação financeira da empresa para identificar pontos fortes, riscos e oportunidades. 
+                Essa etapa é essencial para compreender com clareza onde você está e para onde pode ir.
+              </p>
+            </div>
 
-              {/* Card 2 */}
-              <div className="bg-[#f7fff7] rounded-xl p-4 flex flex-col items-center text-center">
-                <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center mb-3">
-                  <span className="text-white font-bold">2</span>
-                </div>
-                <Compass className="mb-3" size={28} style={{ color: '#ffd66d' }} strokeWidth={2} />
-                <h3 className="font-bold text-stone-950 mb-2 text-sm">
-                  Estruturação Financeira
-                </h3>
-                <p className="text-xs text-stone-700 leading-relaxed">
-                  Organizamos e estruturamos todo o fluxo financeiro da empresa de forma estratégica e eficiente, 
-                  garantindo mais controle, previsibilidade e segurança nas decisões do dia a dia.
-                </p>
+            {/* Card 2 */}
+            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.1s" }}>
+              <div className="w-10 h-10 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: '#24445d' }}>
+                <span className="text-white font-bold">2</span>
               </div>
+              <Compass className="mb-3" size={28} style={{ color: '#ffd66d' }} strokeWidth={2} />
+              <h3 className="font-bold text-stone-950 mb-2 text-sm">
+                Estruturação Financeira
+              </h3>
+              <p className="text-xs text-stone-700 leading-relaxed">
+                Organizamos e estruturamos todo o fluxo financeiro da empresa de forma estratégica e eficiente, 
+                garantindo mais controle, previsibilidade e segurança nas decisões do dia a dia.
+              </p>
+            </div>
 
-              {/* Card 3 */}
-              <div className="bg-[#f7fff7] rounded-xl p-4 flex flex-col items-center text-center">
-                <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center mb-3">
-                  <span className="text-white font-bold">3</span>
-                </div>
-                <Calendar className="mb-3" size={28} style={{ color: '#ffd66d' }} strokeWidth={2} />
-                <h3 className="font-bold text-stone-950 mb-2 text-sm">
-                  Acompanhamento Financeiro Semanal e Mensal
-                </h3>
-                <p className="text-xs text-stone-700 leading-relaxed">
-                  Fazemos um acompanhamento periódico dos dados financeiros semanal e mensalmente para identificar oportunidades de melhoria, 
-                  corrigir desvios e garantir que o planejamento esteja no caminho certo.
-                </p>
+            {/* Card 3 */}
+            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.2s" }}>
+              <div className="w-10 h-10 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: '#24445d' }}>
+                <span className="text-white font-bold">3</span>
               </div>
+              <Calendar className="mb-3" size={28} style={{ color: '#ffd66d' }} strokeWidth={2} />
+              <h3 className="font-bold text-stone-950 mb-2 text-sm">
+                Acompanhamento Financeiro Semanal e Mensal
+              </h3>
+              <p className="text-xs text-stone-700 leading-relaxed">
+                Fazemos um acompanhamento periódico dos dados financeiros semanal e mensalmente para identificar oportunidades de melhoria, 
+                corrigir desvios e garantir que o planejamento esteja no caminho certo.
+              </p>
+            </div>
 
-              {/* Card 4 */}
-              <div className="bg-[#f7fff7] rounded-xl p-4 flex flex-col items-center text-center">
-                <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center mb-3">
-                  <span className="text-white font-bold">4</span>
-                </div>
-                <Lightbulb className="mb-3" size={28} style={{ color: '#ffd66d' }} strokeWidth={2} />
-                <h3 className="font-bold text-stone-950 mb-2 text-sm">
-                  Decisões Assertivas com Foco no Lucro
-                </h3>
-                <p className="text-xs text-stone-700 leading-relaxed">
-                  Com base em informações claras e organizadas, apoiamos você na tomada de decisões estratégicas 
-                  que fortalecem o caixa da empresa e impulsionam os lucros de forma sustentável.
-                </p>
+            {/* Card 4 */}
+            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.3s" }}>
+              <div className="w-10 h-10 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: '#24445d' }}>
+                <span className="text-white font-bold">4</span>
               </div>
+              <Lightbulb className="mb-3" size={28} style={{ color: '#ffd66d' }} strokeWidth={2} />
+              <h3 className="font-bold text-stone-950 mb-2 text-sm">
+                Decisões Assertivas com Foco no Lucro
+              </h3>
+              <p className="text-xs text-stone-700 leading-relaxed">
+                Com base em informações claras e organizadas, apoiamos você na tomada de decisões estratégicas 
+                que fortalecem o caixa da empresa e impulsionam os lucros de forma sustentável.
+              </p>
+            </div>
 
-              {/* Card 5 */}
-              <div className="bg-[#f7fff7] rounded-xl p-4 flex flex-col items-center text-center">
-                <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center mb-3">
-                  <span className="text-white font-bold">5</span>
-                </div>
-                <Coins className="mb-3" size={28} style={{ color: '#ffd66d' }} strokeWidth={2} />
-                <h3 className="font-bold text-stone-950 mb-2 text-sm">
-                  Soluções Financeiras Personalizadas
-                </h3>
-                <p className="text-xs text-stone-700 leading-relaxed">
-                  Soluções para a vida financeira do empreendedor: planejamento para aposentadoria, criação de reserva de emergência, 
-                  estratégias para metas pessoais como viagens e investimentos, sempre com foco na segurança e no equilíbrio financeiro.
-                </p>
+            {/* Card 5 */}
+            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 p-4 flex flex-col items-center text-center" style={{ animationDelay: "0.4s" }}>
+              <div className="w-10 h-10 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: '#24445d' }}>
+                <span className="text-white font-bold">5</span>
               </div>
+              <Coins className="mb-3" size={28} style={{ color: '#ffd66d' }} strokeWidth={2} />
+              <h3 className="font-bold text-stone-950 mb-2 text-sm">
+                Soluções Financeiras Personalizadas
+              </h3>
+              <p className="text-xs text-stone-700 leading-relaxed">
+                Soluções para a vida financeira do empreendedor: planejamento para aposentadoria, criação de reserva de emergência, 
+                estratégias para metas pessoais como viagens e investimentos, sempre com foco na segurança e no equilíbrio financeiro.
+              </p>
             </div>
           </div>
         </div>
