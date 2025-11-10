@@ -12,7 +12,7 @@ const About = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start mb-12 md:mb-16">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mb-12 md:mb-16">
           <div className="animate-fade-in">
             <img src={teamImage} alt="Equipe MZ Consultoria Financeira" className="rounded-xl shadow-lg w-full h-auto object-cover" />
           </div>
