@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg-new.png";
 import heroProfessional from "@/assets/hero-professional.jpg";
+import logo from "@/assets/logo-new.png";
 const Hero = () => {
   return <section id="hero" className="relative min-h-screen flex items-center px-4 sm:px-6 lg:px-8 text-foreground overflow-hidden w-full">
       <div className="absolute inset-0 bg-cover bg-no-repeat" style={{
@@ -11,6 +12,9 @@ const Hero = () => {
       <div className="container mx-auto max-w-6xl relative z-10 h-full flex flex-col justify-between py-12 md:py-16 w-full">
         <div className="flex-1 flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:gap-12 w-full">
           <div className="flex-1 text-left space-y-4 md:space-y-6 w-full max-w-full">
+            <div className="mb-4">
+              <img src={logo} alt="MZ Consultoria Financeira" className="h-16 sm:h-20 md:h-24 w-auto object-contain" />
+            </div>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-[#648199]">
               Oferecemos soluções financeiras completas e integradas que promovem clareza, organização e crescimento para pessoas e empresas.
             </p>
